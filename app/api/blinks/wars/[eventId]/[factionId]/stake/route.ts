@@ -16,7 +16,7 @@ import { createStakeTransaction, getActiveEvent } from '@/lib/wars';
 
 export async function POST(
   request: NextRequest,
-  { params }: { params: { eventId: string; factionId: string } }
+  { params }: { params: Promise<{ eventId: string; factionId: string }> }
 ) {
   try {
     const body = await request.json();
@@ -43,7 +43,7 @@ export async function POST(
       );
     }
 
-    const { eventId, factionId } = params;
+    const { eventId, factionId } = await params;
 
     // Validate event and faction
     const event = getActiveEvent();

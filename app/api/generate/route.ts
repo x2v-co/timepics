@@ -89,7 +89,7 @@ export async function POST(request: NextRequest) {
         aspectRatio: aspectRatioMap[aspectRatio || '1:1'] || '1:1',
         imageSize: imageSizeMap[quality as keyof typeof imageSizeMap] || '1K',
       },
-      responseModalities: ['IMAGE'] as const,
+      responseModalities: ['IMAGE'],
     };
 
     const model = 'gemini-3-pro-image-preview';

@@ -67,7 +67,13 @@ export async function POST(request: NextRequest) {
     }
 
     // Enhance prompt based on engine
-    const enhancedPrompt = enhancePrompt(prompt, engine as Engine, era as Era);
+    const { prompt: enhancedPrompt, negativePrompt } = enhancePrompt({
+      userPrompt: prompt,
+      engine: engine as Engine,
+      era: era as Era,
+      quality,
+      aspectRatio
+    });
 
     console.log('🎨 Generating image with prompt:', enhancedPrompt);
 

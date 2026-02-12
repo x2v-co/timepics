@@ -3,7 +3,7 @@
  * Handles NFT creation and minting on Solana using Metaplex
  */
 
-import { Metaplex, keypairIdentity, bundlrStorage } from '@metaplex-foundation/js';
+import { Metaplex, keypairIdentity } from '@metaplex-foundation/js';
 import { createConnection, getBackendKeypair } from './solana';
 import { PublicKey } from '@solana/web3.js';
 
@@ -49,12 +49,14 @@ function getMetaplex() {
   const keypair = getBackendKeypair();
 
   const metaplex = Metaplex.make(connection)
-    .use(keypairIdentity(keypair))
-    .use(bundlrStorage({
-      address: 'https://devnet.bundlr.network',
-      providerUrl: connection.rpcEndpoint,
-      timeout: 60000,
-    }));
+    .use(keypairIdentity(keypair));
+    // Note: bundlrStorage is deprecated in @metaplex-foundation/js v0.20.x
+    // For production, migrate to newer storage solutions or use Irys directly
+    // .use(bundlrStorage({
+    //   address: 'https://devnet.bundlr.network',
+    //   providerUrl: connection.rpcEndpoint,
+    //   timeout: 60000,
+    // }));
 
   return metaplex;
 }
@@ -73,8 +75,17 @@ export async function mintNFT(
     console.log('Minting NFT for owner:', ownerPublicKey);
     console.log('Metadata:', metadata);
 
+    // Convert metadata attributes values to strings for Metaplex compatibility
+    const metaplexCompatibleMetadata = {
+      ...metadata,
+      attributes: metadata.attributes.map(attr => ({
+        ...attr,
+        value: typeof attr.value === 'number' ? attr.value.toString() : attr.value
+      }))
+    };
+
     // Upload metadata to Arweave via Bundlr
-    const { uri: metadataUri } = await metaplex.nfts().uploadMetadata(metadata);
+    const { uri: metadataUri } = await metaplex.nfts().uploadMetadata(metaplexCompatibleMetadata);
 
     console.log('Metadata uploaded to:', metadataUri);
 
@@ -221,7 +232,12 @@ export async function verifyNFTOwnership(
     const mint = new PublicKey(mintAddress);
     const nft = await metaplex.nfts().findByMint({ mintAddress: mint });
 
-    return nft.token?.ownerAddress.toBase58() === expectedOwner;
+    // Check if NFT has token property (NftWithToken or SftWithToken)
+    if ('token' in nft && nft.token) {
+      return nft.token.ownerAddress.toBase58() === expectedOwner;
+    }
+
+    return false;
   } catch (error) {
     console.error('Failed to verify NFT ownership:', error);
     return false;

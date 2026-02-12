@@ -1,0 +1,71 @@
+[Script Info]
+Title: TimePics.ai Core Features Demo
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 1920
+PlayResY: 1080
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Chinese,Arial,40,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,3,2,2,10,10,80,1
+Style: English,Arial,32,&H00E0E0E0,&H000000FF,&H00000000,&H80000000,0,0,0,0,100,100,0,0,1,3,2,2,10,10,30,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:03.00,Chinese,,0,0,0,,TimePics.ai 核心功能演示
+Dialogue: 0,0:00:00.00,0:00:03.00,English,,0,0,0,,TimePics.ai Core Features Demo
+
+Dialogue: 0,0:00:03.50,0:00:10.00,Chinese,,0,0,0,,功能一：每日时间胶囊 🎁
+Dialogue: 0,0:00:03.50,0:00:10.00,English,,0,0,0,,Feature 1: Daily Time Capsule 🎁
+
+Dialogue: 0,0:00:10.50,0:00:15.00,Chinese,,0,0,0,,每天解锁一个AI生成的隐藏图像
+Dialogue: 0,0:00:10.50,0:00:15.00,English,,0,0,0,,Unlock a hidden AI-generated image every day
+
+Dialogue: 0,0:00:15.50,0:00:20.00,Chinese,,0,0,0,,通过解谜挑战与社区互动
+Dialogue: 0,0:00:15.50,0:00:20.00,English,,0,0,0,,Engage with the community through puzzle challenges
+
+Dialogue: 0,0:00:20.50,0:00:25.00,Chinese,,0,0,0,,增强用户粘性，打造内容IP
+Dialogue: 0,0:00:20.50,0:00:25.00,English,,0,0,0,,Enhance user engagement and build content IP
+
+Dialogue: 0,0:00:28.00,0:00:33.00,Chinese,,0,0,0,,功能二：时间线战争 ⚔️
+Dialogue: 0,0:00:28.00,0:00:33.00,English,,0,0,0,,Feature 2: Timeline Wars ⚔️
+
+Dialogue: 0,0:00:33.50,0:00:38.00,Chinese,,0,0,0,,社区驱动的替代历史预测市场
+Dialogue: 0,0:00:33.50,0:00:38.00,English,,0,0,0,,Community-driven alternate history prediction market
+
+Dialogue: 0,0:00:38.50,0:00:43.00,Chinese,,0,0,0,,两大阵营：蒸汽朋克 vs 生物朋克
+Dialogue: 0,0:00:38.50,0:00:43.00,English,,0,0,0,,Two factions: Steampunk vs Biopunk
+
+Dialogue: 0,0:00:43.50,0:00:48.00,Chinese,,0,0,0,,质押NFT，为你的时间线而战
+Dialogue: 0,0:00:43.50,0:00:48.00,English,,0,0,0,,Stake NFTs and fight for your timeline
+
+Dialogue: 0,0:00:48.50,0:00:53.00,Chinese,,0,0,0,,500 SOL 奖池 · 游戏化对战机制
+Dialogue: 0,0:00:48.50,0:00:53.00,English,,0,0,0,,500 SOL Prize Pool · Gamified Battle System
+
+Dialogue: 0,0:00:53.50,0:00:58.00,Chinese,,0,0,0,,Blink分享功能，社交传播
+Dialogue: 0,0:00:53.50,0:00:58.00,English,,0,0,0,,Blink sharing for social distribution
+
+Dialogue: 0,0:01:01.00,0:01:06.00,Chinese,,0,0,0,,功能三：Solana NFT 铸造 ⛓️
+Dialogue: 0,0:01:01.00,0:01:06.00,English,,0,0,0,,Feature 3: Solana NFT Minting ⛓️
+
+Dialogue: 0,0:01:06.50,0:01:11.00,Chinese,,0,0,0,,一键将AI生成的图像铸造为NFT
+Dialogue: 0,0:01:06.50,0:01:11.00,English,,0,0,0,,Mint AI-generated images as NFTs with one click
+
+Dialogue: 0,0:01:11.50,0:01:16.00,Chinese,,0,0,0,,真正拥有你的时间维度创作
+Dialogue: 0,0:01:11.50,0:01:16.00,English,,0,0,0,,Truly own your temporal dimension creations
+
+Dialogue: 0,0:01:16.50,0:01:21.00,Chinese,,0,0,0,,NFT Gallery - 浏览所有作品
+Dialogue: 0,0:01:16.50,0:01:21.00,English,,0,0,0,,NFT Gallery - Browse all creations
+
+Dialogue: 0,0:01:21.50,0:01:26.00,Chinese,,0,0,0,,按引擎类型筛选：Rewind / Refract / Foresee
+Dialogue: 0,0:01:21.50,0:01:26.00,English,,0,0,0,,Filter by engine: Rewind / Refract / Foresee
+
+Dialogue: 0,0:01:26.50,0:01:31.00,Chinese,,0,0,0,,IPFS去中心化存储，永久保存
+Dialogue: 0,0:01:26.50,0:01:31.00,English,,0,0,0,,IPFS decentralized storage, permanent preservation
+
+Dialogue: 0,0:01:31.50,0:01:35.00,Chinese,,0,0,0,,感谢观看！
+Dialogue: 0,0:01:31.50,0:01:35.00,English,,0,0,0,,Thank you for watching!
+
+Dialogue: 0,0:01:35.50,0:01:40.00,Chinese,,0,0,0,,TimePics.ai - 渲染任何时刻
+Dialogue: 0,0:01:35.50,0:01:40.00,English,,0,0,0,,TimePics.ai - Render Any Moment

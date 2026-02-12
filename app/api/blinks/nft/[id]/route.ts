@@ -32,10 +32,11 @@ const mockNFTs: Record<string, any> = {
 
 export async function GET(
   request: NextRequest,
-  { params }: { params: { id: string } }
+  { params }: { params: Promise<{ id: string }> }
 ) {
   try {
-    const nftId = params.id;
+    const { id } = await params;
+    const nftId = id;
     const nft = mockNFTs[nftId];
 
     if (!nft) {

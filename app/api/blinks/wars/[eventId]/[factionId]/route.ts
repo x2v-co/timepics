@@ -11,10 +11,10 @@ import { getActiveEvent } from '@/lib/wars';
 
 export async function GET(
   request: NextRequest,
-  { params }: { params: { eventId: string; factionId: string } }
+  { params }: { params: Promise<{ eventId: string; factionId: string }> }
 ) {
   try {
-    const { eventId, factionId } = params;
+    const { eventId, factionId } = await params;
 
     // Get active event data
     const event = getActiveEvent();
