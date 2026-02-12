@@ -95,7 +95,7 @@ TimePics.ai 是一款创新的 Web3 应用，结合了 **AI 图像生成**、**�
 - **Solana 钱包**（Phantom、Solflare 等）- 用于 NFT 铸造
 - **API 密钥**：
   - [Google Gemini API](https://ai.google.dev/) - 用于 AI 图像生成 ✅ **必需**
-  - [NFT.Storage Key](https://nft.storage) - 用于 IPFS 存储（免费）⚡ **推荐**
+  - [Pinata API 密钥](https://pinata.cloud) - 用于 IPFS 存储 ⚡ **推荐**
 
 ### 安装步骤
 
@@ -126,8 +126,9 @@ TimePics.ai 是一款创新的 Web3 应用，结合了 **AI 图像生成**、**�
    NEXT_PUBLIC_SOLANA_NETWORK=devnet
    SOLANA_RPC_URL=https://api.devnet.solana.com
 
-   # IPFS 存储（推荐用于 NFT 铸造）
-   NFT_STORAGE_KEY=your_nft_storage_key_here
+   # IPFS 存储通过 Pinata（推荐用于 NFT 铸造）
+   PINATA_API_KEY=your_pinata_api_key_here
+   PINATA_SECRET_KEY=your_pinata_secret_key_here
 
    # 后端钱包（可选，用于真实 NFT 铸造）
    BACKEND_WALLET_PRIVATE_KEY=[1,2,3,...]
@@ -135,7 +136,7 @@ TimePics.ai 是一款创新的 Web3 应用，结合了 **AI 图像生成**、**�
 
    **获取 API 密钥：**
    - **Gemini**: 访问 https://ai.google.dev/ → "Get API Key" → 复制密钥
-   - **NFT.Storage**: 访问 https://nft.storage → 注册 → "API Keys" → "New Key"
+   - **Pinata**: 访问 https://pinata.cloud → 注册 → "API Keys" → "New Key" → 复制 API Key 和 Secret Key
    - 查看 [QUICK_START_IPFS.md](./QUICK_START_IPFS.md) 了解详细的 IPFS 设置
 
 4. **运行开发服务器**
@@ -187,8 +188,8 @@ curl http://localhost:3000/api/ipfs/test
 - **操作**: Solana Blinks/Actions API
 
 ### 存储
-- **IPFS**: NFT.Storage（免费永久存储）
-- **网关**: https://nftstorage.link
+- **IPFS**: Pinata（专业的 IPFS 固定服务）
+- **网关**: https://gateway.pinata.cloud
 - **格式**: 基于 CID 的内容寻址
 
 ---
@@ -393,8 +394,12 @@ NFT 力量 = (100 - 熵值) × 引擎加成 - 年龄惩罚
 查看详细指南：[QUICK_START_IPFS.md](./QUICK_START_IPFS.md)
 
 **快速步骤：**
-1. 从 https://nft.storage 获取免费 API 密钥
-2. 添加到 `.env.local`：`NFT_STORAGE_KEY=eyJhbGc...`
+1. 从 https://pinata.cloud 获取免费 API 密钥
+2. 添加到 `.env.local`：
+   ```env
+   PINATA_API_KEY=your_api_key_here
+   PINATA_SECRET_KEY=your_secret_key_here
+   ```
 3. 测试：`curl http://localhost:3000/api/ipfs/test`
 
 ### 时间线战争配置
@@ -427,7 +432,8 @@ NEXT_PUBLIC_BASE_URL=https://timepics.ai
 
 3. **在 Vercel 控制台添加环境变量**：
    - `GEMINI_API_KEY`
-   - `NFT_STORAGE_KEY`
+   - `PINATA_API_KEY`
+   - `PINATA_SECRET_KEY`
    - `BACKEND_WALLET_PRIVATE_KEY`（可选）
    - `NEXT_PUBLIC_SOLANA_NETWORK=devnet` 或 `mainnet-beta`
    - `SOLANA_RPC_URL`
@@ -452,10 +458,10 @@ NEXT_PUBLIC_BASE_URL=https://timepics.ai
 - 🔄 **成功率**: ~100%（有效提示词）
 
 ### IPFS 存储
-- 🆓 **成本**: 免费（NFT.Storage）
-- ⏱️ **上传时间**: 5-15 秒
-- 🌐 **网关加载**: 1-3 秒（传播后）
-- ♾️ **保留**: 永久
+- 🆓 **成本**: 提供免费套餐（Pinata）
+- ⏱️ **上传时间**: 3-10 秒
+- 🌐 **网关加载**: 1-2 秒（快速 CDN）
+- ♾️ **保留**: 永久（只要保持固定）
 
 ### 区块链
 - ⛓️ **网络**: Solana Devnet（测试用）
@@ -636,7 +642,7 @@ MIT 许可证 - 详见 [LICENSE](./LICENSE) 文件。
 - **OpenBuild Hackathon** - 提供机会和灵感
 - **Solana Foundation** - 提供区块链基础设施
 - **Google AI** - 提供 Gemini Imagen API
-- **NFT.Storage** - 提供免费永久 IPFS 存储
+- **Pinata** - 提供专业的 IPFS 固定服务
 - **Metaplex** - 提供 NFT 标准和工具
 - **shadcn/ui** - 提供精美的 UI 组件
 - **Vercel** - 提供托管和部署

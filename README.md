@@ -95,7 +95,7 @@ Share interactive blockchain links on social media:
 - **Solana wallet** (Phantom, Solflare, etc.) - for NFT minting
 - **API Keys**:
   - [Google Gemini API](https://ai.google.dev/) - for AI image generation ✅ **Required**
-  - [NFT.Storage Key](https://nft.storage) - for IPFS storage (free) ⚡ **Recommended**
+  - [Pinata API Keys](https://pinata.cloud) - for IPFS storage ⚡ **Recommended**
 
 ### Installation
 
@@ -126,8 +126,9 @@ Share interactive blockchain links on social media:
    NEXT_PUBLIC_SOLANA_NETWORK=devnet
    SOLANA_RPC_URL=https://api.devnet.solana.com
 
-   # IPFS Storage (Recommended for NFT minting)
-   NFT_STORAGE_KEY=your_nft_storage_key_here
+   # IPFS Storage via Pinata (Recommended for NFT minting)
+   PINATA_API_KEY=your_pinata_api_key_here
+   PINATA_SECRET_KEY=your_pinata_secret_key_here
 
    # Backend Wallet (Optional, for real NFT minting)
    BACKEND_WALLET_PRIVATE_KEY=[1,2,3,...]
@@ -135,7 +136,7 @@ Share interactive blockchain links on social media:
 
    **Get API Keys:**
    - **Gemini**: Visit https://ai.google.dev/ → "Get API Key" → Copy key
-   - **NFT.Storage**: Visit https://nft.storage → Sign up → "API Keys" → "New Key"
+   - **Pinata**: Visit https://pinata.cloud → Sign up → "API Keys" → "New Key" → Copy API Key and Secret Key
    - See [QUICK_START_IPFS.md](./QUICK_START_IPFS.md) for detailed IPFS setup
 
 4. **Run development server**
@@ -187,8 +188,8 @@ Or visit the test page: http://localhost:3000/ipfs-test
 - **Actions**: Solana Blinks/Actions API
 
 ### Storage
-- **IPFS**: NFT.Storage (free permanent storage)
-- **Gateway**: https://nftstorage.link
+- **IPFS**: Pinata (professional IPFS pinning service)
+- **Gateway**: https://gateway.pinata.cloud
 - **Format**: CID-based content addressing
 
 ---
@@ -393,8 +394,12 @@ Currently in mock mode. To enable real blockchain minting:
 See detailed guide: [QUICK_START_IPFS.md](./QUICK_START_IPFS.md)
 
 **Quick steps:**
-1. Get free API key from https://nft.storage
-2. Add to `.env.local`: `NFT_STORAGE_KEY=eyJhbGc...`
+1. Get free API keys from https://pinata.cloud
+2. Add to `.env.local`:
+   ```env
+   PINATA_API_KEY=your_api_key_here
+   PINATA_SECRET_KEY=your_secret_key_here
+   ```
 3. Test: `curl http://localhost:3000/api/ipfs/test`
 
 ### Timeline Wars Configuration
@@ -427,7 +432,8 @@ NEXT_PUBLIC_BASE_URL=https://timepics.ai
 
 3. **Add environment variables** in Vercel dashboard:
    - `GEMINI_API_KEY`
-   - `NFT_STORAGE_KEY`
+   - `PINATA_API_KEY`
+   - `PINATA_SECRET_KEY`
    - `BACKEND_WALLET_PRIVATE_KEY` (optional)
    - `NEXT_PUBLIC_SOLANA_NETWORK=devnet` or `mainnet-beta`
    - `SOLANA_RPC_URL`
@@ -452,10 +458,10 @@ NEXT_PUBLIC_BASE_URL=https://timepics.ai
 - 🔄 **Success Rate**: ~100% with valid prompts
 
 ### IPFS Storage
-- 🆓 **Cost**: Free (NFT.Storage)
-- ⏱️ **Upload Time**: 5-15 seconds
-- 🌐 **Gateway Load**: 1-3 seconds (after propagation)
-- ♾️ **Retention**: Permanent
+- 🆓 **Cost**: Free tier available (Pinata)
+- ⏱️ **Upload Time**: 3-10 seconds
+- 🌐 **Gateway Load**: 1-2 seconds (fast CDN)
+- ♾️ **Retention**: Permanent (as long as pinned)
 
 ### Blockchain
 - ⛓️ **Network**: Solana Devnet (for testing)
@@ -636,7 +642,7 @@ MIT License - see [LICENSE](./LICENSE) file for details.
 - **OpenBuild Hackathon** - For the opportunity and inspiration
 - **Solana Foundation** - For blockchain infrastructure
 - **Google AI** - For Gemini Imagen API
-- **NFT.Storage** - For free permanent IPFS storage
+- **Pinata** - For professional IPFS pinning service
 - **Metaplex** - For NFT standards and tools
 - **shadcn/ui** - For beautiful UI components
 - **Vercel** - For hosting and deployment
