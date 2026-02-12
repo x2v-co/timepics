@@ -16,9 +16,11 @@
 
 ## 🎯 What is TimePics.ai?
 
-TimePics.ai is an innovative Web3 application that combines **AI image generation**, **blockchain NFTs**, and **gamification** to create a unique "visual time machine" experience. Generate temporal images, mint them as evolving NFTs, and participate in community-driven timeline battles.
+TimePics.ai is the world's first **AI-powered prediction market meets NFT battle royale** - a revolutionary Web3 application where users don't just create AI images, they **bet on timelines, stake NFTs, and compete for rewards** in decentralized historical battles.
 
-**Tagline:** "Render Any Moment. Own It Forever."
+Inspired by **Polymarket's betting mechanics**, TimePics transforms AI-generated images into tradeable assets that fight for dominance in community-driven Timeline Wars. Generate temporal images, mint them as evolving NFTs, stake on factions, rally voters, and win real SOL rewards.
+
+**Tagline:** "Render Any Moment. Own It Forever. Bet on History."
 
 ---
 
@@ -66,15 +68,215 @@ Daily puzzle-based game to increase engagement:
 - LocalStorage persistence
 - Countdown timer to next capsule
 
-### ⚔️ Timeline Wars
+### ⚔️ Timeline Wars - The Game-Changer (Polymarket-Style Prediction Markets)
 
-Community-driven historical battles:
+**The most revolutionary feature** - Transform TimePics.ai from a content creation tool into a **decentralized prediction market meets social NFT battle arena**.
 
-- **Stake NFTs** to support factions (e.g., Steam Revolution vs Bio Genesis)
-- **NFT Power System**: Based on freshness, engine type, and age
-- **Win Rewards**: Victorious faction shares SOL prize pool
-- **NFT Badges**: Winners get "Canonical History" badge, losers get "Paradox" glitch art
-- **Real-time Battle Stats**: Live power comparison and win probability
+#### 🎲 Core Mechanics: Bet, Stake, Rally, Win
+
+**1. Create or Join Timeline Markets**
+Like Polymarket's binary markets, users can:
+- Create competing timeline scenarios (e.g., "Steam Revolution 1850" vs "Bio Genesis 1850")
+- Set battle duration (24h, 7 days, 30 days)
+- Define prize pool minimum (1 SOL - 100 SOL)
+- Each battle has two opposing factions competing for dominance
+
+**2. Stake NFTs as Betting Positions**
+Instead of simple Yes/No betting, users:
+- Generate faction-themed AI images using Time Engines
+- Mint images as Living NFTs (0.1 SOL + mint fee)
+- **Stake NFTs = Your bet on that timeline faction**
+- Each NFT has computed **Power Score** based on:
+  - **Freshness** (0-100% entropy): Fresh = more power
+  - **Engine Type**: Refract (+20%), Rewind (+10%), Foresee (+5%)
+  - **Age**: Older NFTs lose power over time
+  - **Community Votes**: Each upvote = +5% power boost
+
+**3. NFT Trading & Secondary Markets**
+Create real economic activity:
+- **Stake your NFT** = lock it in a faction (retrievable after battle)
+- **Trade staked positions**: Other users can buy your staked NFT mid-battle
+  - Price determined by: Current faction winning probability + NFT power
+  - Example: If your faction is winning 70-30, your NFT value ↑ 40%
+- **Speculative trading**: Buy underdog faction NFTs cheap, profit if they win
+- **Marketplace fees**: 2.5% on all trades → platform revenue
+
+**4. Rally Voters & Social Warfare**
+The most important mechanic - **community voting determines winners**:
+
+**Voting System:**
+- Every wallet gets **1 free vote per battle per day**
+- Pro users get **5 votes per battle per day**
+- Voters can also **buy additional votes** (0.01 SOL = 10 votes)
+- Votes are **weighted by voter reputation** (long-term users = more influence)
+
+**Social Amplification:**
+- **Share Faction Blinks on Twitter/Discord**: Direct stake button
+- **Recruit teammates**: 10% of their rewards if your faction wins
+- **Organize vote brigades**: Coordinate in Discord/Telegram
+- **Content creation**: Best faction memes/videos earn bonus rewards
+
+**Voting Power Formula:**
+```
+Your Faction Power =
+  (Sum of all staked NFT power scores) ×
+  (1 + 0.05 × total community votes) ×
+  (1 + social_engagement_multiplier)
+```
+
+**5. Battle Resolution & Prize Distribution**
+
+When the battle ends (countdown reaches 0):
+
+**Winning Faction (Higher total power):**
+- **70% of total prize pool** split proportionally by NFT power
+  - Example: You staked 100 power, faction total = 10,000 power
+  - You get: 70% × Prize Pool × (100/10,000) = 0.7% of prize
+- **"Canonical History" NFT Badge**: Permanent visual upgrade
+- **Winner's Share Trading Bonus**: 0% fees for 7 days
+
+**Losing Faction:**
+- **Retrieve staked NFTs** (no SOL rewards)
+- **"Paradox Timeline" Badge**: Glitch art effect (actually desirable for collectors!)
+- **Consolation votes**: Top 10 voted NFTs get 5% of prize pool
+
+**All Voters (Both Sides):**
+- **20% of prize pool** distributed to voters proportionally
+  - More votes = larger share
+  - Voting for winning side = 2x rewards
+- **Reputation XP**: Unlock rare faction creation rights
+
+**Platform Rake:**
+- **10% of prize pool** → TimePics.ai treasury
+- Funds development, marketing, creator grants
+
+#### 💰 Economic Game Theory
+
+**Polymarket Comparison:**
+
+| Feature | Polymarket | TimePics Timeline Wars |
+|---------|-----------|------------------------|
+| **Betting Medium** | USDC | NFTs (AI-generated images) |
+| **Market Creation** | Permissionless | Pro users can create factions |
+| **Position Trading** | Yes (buy/sell shares) | Yes (trade staked NFTs) |
+| **Resolution Oracle** | UMA Protocol | Community voting (decentralized) |
+| **Liquidity** | Automated Market Maker | Order book + peer-to-peer |
+| **Social Layer** | Minimal | Core mechanic (vote rallying) |
+| **Content Creation** | None | Built-in AI generation engine |
+
+**Why This Model Works:**
+
+1. **Skin in the Game**: Unlike "likes", users stake real value (NFT mint cost + potential rewards)
+2. **Network Effects**: More stakers = bigger prize pool = more attention = viral growth
+3. **Creator Incentives**: Faction creators earn 5% of all bets → motivated to market their timeline
+4. **Speculation Opportunities**: Smart traders can profit from buying underdog NFTs early
+5. **Community Ownership**: Voters feel ownership over "canon history" outcomes
+
+#### 📊 Example Battle Scenario
+
+**Battle: "What if Tesla Won the Current War?"**
+
+**Timeline A: "AC Power Dominates (Real History)"**
+- Faction Creator: @HistoryBuff420 (earns 5% of all stakes)
+- Total Staked NFTs: 234 NFTs (avg power: 75)
+- Total Power: 17,550
+- Total SOL Staked: 23.4 SOL (0.1 per mint)
+- Community Votes: 1,247 votes (+62% power multiplier)
+- **Final Power**: 17,550 × 1.62 = 28,431
+
+**Timeline B: "DC Power Wins (Alternate History)"**
+- Faction Creator: @SteampunkFan
+- Total Staked NFTs: 189 NFTs (avg power: 82)
+- Total Power: 15,498
+- Total SOL Staked: 18.9 SOL
+- Community Votes: 2,103 votes (+105% power multiplier)
+- **Final Power**: 15,498 × 2.05 = 31,771 ✅ **WINNER**
+
+**Prize Distribution (Total Pool: 42.3 SOL):**
+
+**Timeline B Winners:**
+- Prize Pool (70%): 29.61 SOL
+  - Distributed to 189 NFT stakers proportionally
+  - Top staker (120 power): ~0.11 SOL
+  - Average staker (82 power): ~0.08 SOL
+
+**All Voters:**
+- Voter Rewards (20%): 8.46 SOL
+  - Timeline B voters (2,103): 70% = 5.92 SOL
+  - Timeline A voters (1,247): 30% = 2.54 SOL
+
+**Faction Creators:**
+- @SteampunkFan: 5% × 18.9 SOL = 0.95 SOL
+- @HistoryBuff420: 5% × 23.4 SOL = 1.17 SOL
+
+**Platform:**
+- Treasury (10%): 4.23 SOL
+
+#### 🚀 Why Timeline Wars Is Critical to Success
+
+**1. Solves the "AI Tool Problem"**
+- Most AI generators: One-time use → no retention
+- Timeline Wars: Continuous engagement → betting → voting → trading
+
+**2. Creates Real Network Effects**
+- More users = bigger prize pools = attracts more users (flywheel)
+- Viral loop: Share faction → recruit friends → increase winning chances
+
+**3. Multiple Revenue Streams**
+- NFT minting fees (30% of $2-10)
+- Trading marketplace fees (2.5%)
+- Platform rake (10% of prize pools)
+- Pro subscriptions (unlimited faction creation)
+
+**4. User-Generated Content Marketing**
+- Every faction = a marketing campaign by its creator
+- Viral tweets, Discord raids, meme wars = free promotion
+- "Timeline Wars drama" creates press coverage
+
+**5. Speculative Trading Creates Liquidity**
+- NFT traders hunt for "undervalued timelines"
+- Mid-battle trading = constant market activity
+- FOMO effect: "That faction is pulling ahead, buy in now!"
+
+#### 🎯 Success Metrics (90-Day Projection)
+
+- **Active Battles**: 50+ simultaneous timeline wars
+- **Total Staked NFTs**: 25,000+ positions
+- **Prize Pool Volume**: $500K+ in SOL
+- **Secondary Trading**: $200K+ NFT sales
+- **Platform Revenue**: $70K+ (fees + subscriptions)
+- **Social Mentions**: 100K+ #TimelineWars tweets
+
+#### 🔗 Technical Implementation
+
+**Solana Smart Contracts:**
+```
+TimelineWarsVault.sol
+├── createBattle(factionA, factionB, duration, minPrize)
+├── stakeNFT(battleId, factionId, nftMint)
+├── vote(battleId, factionId, voteCount)
+├── tradeStakedPosition(nftMint, newOwner, price)
+├── resolveBattle(battleId) → distributePrizes()
+└── claimRewards(battleId, userWallet)
+```
+
+**Off-Chain Infrastructure:**
+- Real-time WebSocket for live power updates
+- IPFS for faction metadata (descriptions, images)
+- PostgreSQL for battle history and leaderboards
+- Redis for vote counting cache
+
+---
+
+### 🎁 Daily Time Capsule (Secondary Feature)
+
+Daily puzzle-based game to increase engagement:
+
+- New mystery image every 24 hours
+- Unlock with keyword guessing
+- Locked content with noise animation
+- LocalStorage persistence
+- Countdown timer to next capsule
 
 ### 🔗 Solana Blinks Integration
 
@@ -84,6 +286,7 @@ Share interactive blockchain links on social media:
 - Share Timeline Wars battles with stake button
 - One-click blockchain actions from social platforms
 - No need to leave Twitter to interact with blockchain
+- **Viral sharing = recruit voters for your faction**
 
 ---
 
@@ -318,7 +521,216 @@ NFT Power = (100 - entropy) × engine_bonus - age_penalty
 - Frozen NFTs: Power locked
 ```
 
-### 4. Daily Time Capsule
+### 4. Timeline Wars (Core Feature - Prediction Market Gameplay)
+
+Visit **http://localhost:3000/timeline-wars**
+
+**Full betting and competition flow:**
+
+#### Step 1: Browse Active Battles
+- View all live timeline wars with real-time stats
+- See prize pools, faction powers, time remaining
+- Check current winning probabilities (e.g., 65% vs 35%)
+- Filter by: Ending Soon / Highest Prize / Most Votes
+
+#### Step 2: Choose Your Faction
+- Research both timelines (read descriptions, view staked NFTs)
+- Check faction creator reputation and track record
+- Analyze power distribution and voting trends
+- **Strategy tip**: Join underdog early = higher potential returns
+
+#### Step 3: Generate & Mint Faction NFT
+1. Click "Join [Faction Name]" → redirects to generate page
+2. Auto-filled prompt matches faction theme
+3. Customize and generate AI image (20-30 seconds)
+4. Mint as NFT (0.1 SOL + gas fees)
+5. **Your NFT power calculated instantly** based on:
+   - Engine type (Refract = strongest)
+   - Freshness (Fresh = 100 power, Ancient = 20 power)
+   - Quality bonuses from HD generation
+
+#### Step 4: Stake Your Bet
+1. Return to Timeline Wars page
+2. Click "Stake NFT" on your chosen faction card
+3. Select NFT from your wallet (shows power score)
+4. Confirm transaction (0.01 SOL staking fee)
+5. **Your stake is now live** - contributing to faction power
+6. Watch your position value update in real-time
+
+#### Step 5: Rally Your Community (Critical!)
+**This is where you win or lose:**
+
+**A. Share Faction Blinks**
+- Click "Share Faction" button
+- Auto-generates Solana Blink URL
+- Post on Twitter: "Join my faction in Timeline Wars! [Blink URL]"
+- Anyone who clicks can stake directly from Twitter
+- **You earn 10% of their rewards if faction wins**
+
+**B. Organize Voting Campaigns**
+- Share battle page in Discord/Telegram
+- Create faction-themed memes and videos
+- Host "Voting Parties" - coordinate mass voting
+- **Reminder**: Votes = +5% power per vote = critical advantage
+
+**C. Buy Additional Votes**
+- Free users: 1 vote/day per battle
+- Pro users: 5 votes/day per battle
+- Buy vote packs: 0.01 SOL = 10 votes
+- Strategic voting: Wait until last hours to counter enemy votes
+
+#### Step 6: Monitor & Trade
+**Active battle management:**
+
+**Watch Live Stats Dashboard:**
+- Faction power comparison (updates every 30 seconds)
+- Recent stakes and vote activity feed
+- Winning probability chart (historical + current)
+- Time until battle resolution
+
+**Trade Your Position Mid-Battle:**
+- If your faction is winning, you can sell NFT at premium
+- Example: Staked 0.1 SOL, faction now 70% to win → Sell NFT for 0.15 SOL
+- If losing, cut losses by selling before battle ends
+- Marketplace shows all active staked NFTs with:
+  - Current owner, power score, faction, ask price
+
+**Add More Stakes:**
+- Unlimited staking - mint and stake multiple NFTs
+- Diversify: Stake on both factions (hedge your bets)
+- Power stacking: Multiple NFTs = multiplied power
+
+#### Step 7: Battle Resolution & Rewards
+
+**When countdown reaches 0:**
+
+**If Your Faction Wins 🏆**
+1. **Claim SOL Rewards** (70% of prize pool split by power)
+   - Click "Claim Rewards" button
+   - Calculates your share: `Your Power / Total Faction Power × 70% × Prize Pool`
+   - Example calculation shown in UI before claiming
+   - Funds sent directly to your wallet
+
+2. **Receive "Canonical History" Badge**
+   - Your NFT gets permanent golden border overlay
+   - Metadata updated on-chain with win badge
+   - NFT value increases in secondary market (historical significance)
+
+3. **Unlock Trading Benefits**
+   - 0% marketplace fees for 7 days
+   - Priority display in NFT gallery
+   - Winner's leaderboard featuring
+
+**If Your Faction Loses 😔**
+1. **Retrieve Your NFTs** (no SOL rewards, but you keep NFTs)
+2. **Get "Paradox Timeline" Badge**
+   - Glitch art visual effect applied
+   - Actually desirable for collectors (rare aesthetic)
+   - Some traders hunt losing NFTs for this badge
+
+3. **Voter Consolation** (if you voted for losing side)
+   - Top 10 most-voted NFTs get 5% consolation prize
+   - Check "Top Voted" list to see if you qualified
+
+**Voter Rewards (All Participants):**
+- 20% of prize pool distributed to ALL voters
+- Winning side voters: 70% of voter pool (2x multiplier)
+- Losing side voters: 30% of voter pool
+- Calculated by: `(Your Votes / Total Votes) × Voter Pool × Side Multiplier`
+
+**Example Reward Calculation:**
+```
+Battle: "Tesla's DC vs Edison's AC"
+Your Faction: DC Power (Winner ✅)
+Your Stakes: 3 NFTs (total power: 240)
+Your Votes: 50 votes
+Total Prize Pool: 100 SOL
+
+Staking Rewards:
+70 SOL × (240 / 30,000 total faction power) = 0.56 SOL
+
+Voting Rewards:
+20 SOL × 0.70 (winner side) × (50 / 5,000 total votes) = 0.14 SOL
+
+Total Earnings: 0.70 SOL (7x return on 0.1 SOL mint cost!)
+```
+
+#### Advanced Strategies
+
+**Early Bird Advantage:**
+- Join factions early when prize pools are small
+- As more users join, your % share of faction decreases
+- But prize pool grows = net positive
+- Sweet spot: Join when 20-50 NFTs staked
+
+**Vote Manipulation Defense:**
+- Platform has anti-bot measures: New wallets need 0.1 SOL history
+- Vote weight decreases for Sybil-like behavior
+- Quadratic voting: 1st vote = 1 power, 10th vote = 3.16 power (√10)
+
+**Whale Resistance:**
+- Maximum stake per wallet: 10 NFTs per faction
+- Power capping: NFTs over 95 power count as 95 (diminishing returns)
+- Prevents single whale from dominating
+
+**Faction Creator Meta:**
+- Pro users can create custom battles (unlimited)
+- Earn 5% of all stakes on your battle
+- **Most profitable strategy**: Create viral timeline concepts
+- Examples of successful battles:
+  - "What if Dinosaurs Never Died?"
+  - "Bitcoin Invented in 1995"
+  - "Rome Never Fell"
+
+---
+
+### 🎮 Real-World Usage Example
+
+**Case Study: "@CryptoHistorian's Rome Battle"**
+
+**Battle Created:** "Roman Empire Collapse Timeline"
+- Faction A: "Fall of Rome 476 AD (Real)"
+- Faction B: "Rome Survives to 1000 AD"
+- Duration: 7 days
+- Initial Prize Pool: 5 SOL
+
+**Day 1-2:** Early stakers join both sides
+- Faction A: 23 NFTs (1,725 power)
+- Faction B: 18 NFTs (1,476 power)
+- Prize pool: 9.1 SOL
+
+**Day 3-4:** @CryptoHistorian tweets battle link
+- Goes viral: 50K impressions, 2K clicks
+- Faction B rallies Byzantine history fans
+- Faction A recruits from r/RoughRomanMemes
+- Prize pool: 34.7 SOL
+
+**Day 5-6:** Voting war begins
+- Faction A: 847 votes (+423% power = 7,297 total power)
+- Faction B: 1,203 votes (+601% power = 10,348 total power)
+- Users buy vote packs (0.01 SOL each)
+- Prize pool: 56.3 SOL
+
+**Day 7:** Final hours chaos
+- Last-minute stakes flood in (FOMO effect)
+- Both factions run Twitter Spaces to coordinate
+- Vote brigading from Discord communities
+- Final state:
+  - Faction A: 89 NFTs, 2,134 votes = **11,289 power**
+  - Faction B: 124 NFTs, 1,947 votes = **10,872 power**
+  - Prize pool: **78.3 SOL**
+
+**Result:** Faction A wins by 3.8% margin!
+- 89 winners split 54.8 SOL (avg 0.62 SOL per NFT)
+- 4,081 voters split 15.7 SOL
+- @CryptoHistorian earned 3.9 SOL (5% creator fee)
+- TimePics.ai earned 7.8 SOL (10% rake)
+
+**Lesson:** Social mobilization + strategic voting > pure NFT power
+
+---
+
+### 6. Daily Time Capsule
 
 Visit **http://localhost:3000** (Home page)
 
@@ -332,29 +744,6 @@ Visit **http://localhost:3000** (Home page)
 - 1969 Moon Landing: Hint "not Armstrong, but..."
 - 2077 Cyberpunk City: Hint "floating in 2077..."
 - Dinosaur Coexistence: Hint "if they never went extinct..."
-
-### 5. Timeline Wars
-
-Visit **http://localhost:3000/timeline-wars**
-
-**Participate in historical battles:**
-
-1. **Choose a faction** (e.g., Steam Revolution vs Bio Genesis)
-2. **Join faction** → redirects to generate page with preset style
-3. **Generate faction-themed NFT**
-4. **Mint NFT** with your wallet
-5. **Return to Wars page** and click "Stake NFT"
-6. **Confirm staking** (0.01 SOL fee)
-7. **Watch real-time battle stats**
-
-**After battle ends:**
-- **Winners**: Share SOL prize pool proportionally + "Canonical History" badge
-- **Losers**: Get "Paradox Timeline" badge with glitch art effect
-
-**Share your faction:**
-- Click "Share Blink" on faction card
-- Share on Twitter with stake button
-- Others can stake directly from Twitter
 
 ---
 
