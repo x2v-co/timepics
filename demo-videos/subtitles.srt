@@ -1,0 +1,94 @@
+1
+00:00:00,000 --> 00:00:03,000
+TimePics.ai 核心功能演示
+TimePics.ai Core Features Demo
+
+2
+00:00:03,500 --> 00:00:10,000
+功能一：每日时间胶囊 🎁
+Feature 1: Daily Time Capsule 🎁
+
+3
+00:00:10,500 --> 00:00:15,000
+每天解锁一个AI生成的隐藏图像
+Unlock a hidden AI-generated image every day
+
+4
+00:00:15,500 --> 00:00:20,000
+通过解谜挑战与社区互动
+Engage with the community through puzzle challenges
+
+5
+00:00:20,500 --> 00:00:25,000
+增强用户粘性，打造内容IP
+Enhance user engagement and build content IP
+
+6
+00:00:28,000 --> 00:00:33,000
+功能二：时间线战争 ⚔️
+Feature 2: Timeline Wars ⚔️
+
+7
+00:00:33,500 --> 00:00:38,000
+社区驱动的替代历史预测市场
+Community-driven alternate history prediction market
+
+8
+00:00:38,500 --> 00:00:43,000
+两大阵营：蒸汽朋克 vs 生物朋克
+Two factions: Steampunk vs Biopunk
+
+9
+00:00:43,500 --> 00:00:48,000
+质押NFT，为你的时间线而战
+Stake NFTs and fight for your timeline
+
+10
+00:00:48,500 --> 00:00:53,000
+500 SOL 奖池 · 游戏化对战机制
+500 SOL Prize Pool · Gamified Battle System
+
+11
+00:00:53,500 --> 00:00:58,000
+Blink分享功能，社交传播
+Blink sharing for social distribution
+
+12
+00:01:01,000 --> 00:01:06,000
+功能三：Solana NFT 铸造 ⛓️
+Feature 3: Solana NFT Minting ⛓️
+
+13
+00:01:06,500 --> 00:01:11,000
+一键将AI生成的图像铸造为NFT
+Mint AI-generated images as NFTs with one click
+
+14
+00:01:11,500 --> 00:01:16,000
+真正拥有你的时间维度创作
+Truly own your temporal dimension creations
+
+15
+00:01:16,500 --> 00:01:21,000
+NFT Gallery - 浏览所有作品
+NFT Gallery - Browse all creations
+
+16
+00:01:21,500 --> 00:01:26,000
+按引擎类型筛选：Rewind / Refract / Foresee
+Filter by engine: Rewind / Refract / Foresee
+
+17
+00:01:26,500 --> 00:01:31,000
+IPFS去中心化存储，永久保存
+IPFS decentralized storage, permanent preservation
+
+18
+00:01:31,500 --> 00:01:35,000
+感谢观看！
+Thank you for watching!
+
+19
+00:01:35,500 --> 00:01:40,000
+TimePics.ai - 渲染任何时刻
+TimePics.ai - Render Any Moment

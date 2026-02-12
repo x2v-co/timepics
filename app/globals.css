@@ -1,26 +1,275 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+/**
+ * TimePics.ai Design System
+ * OLED Dark Mode with Purple/Amber accent
+ * Typography: Orbitron (headings) + Exo 2 (body)
+ * Integrated with shadcn/ui components
+ */
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
+@layer base {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    /* shadcn/ui CSS variables (HSL format) */
+    --background: 233 42% 9%; /* #0F0F23 */
+    --foreground: 210 40% 98%; /* #F8FAFC */
+
+    --card: 233 28% 15%; /* #1A1A2E */
+    --card-foreground: 210 40% 98%;
+
+    --popover: 233 28% 15%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 258 90% 66%; /* #8B5CF6 Purple-500 */
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 258 92% 76%; /* #A78BFA Light purple */
+    --secondary-foreground: 233 42% 9%;
+
+    --muted: 234 13% 31%; /* #4A4A5E */
+    --muted-foreground: 215 16% 47%; /* #94A3B8 Slate-400 */
+
+    --accent: 43 96% 56%; /* #FBBF24 Amber-400 for CTAs */
+    --accent-foreground: 222 47% 11%; /* Dark slate for text on amber */
+
+    --destructive: 0 84% 60%; /* #EF4444 Red-500 */
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 233 23% 19%; /* #2A2A3E */
+    --input: 233 23% 19%;
+    --ring: 258 90% 66%; /* Purple primary for focus rings */
+
+    --radius: 0.5rem;
+
+    /* Custom brand colors (hex for gradients) */
+    --color-primary: #8B5CF6;
+    --color-primary-hover: #A78BFA;
+    --color-primary-glow: rgba(139, 92, 246, 0.3);
+
+    --color-secondary: #A78BFA;
+    --color-secondary-glow: rgba(167, 139, 250, 0.2);
+
+    --color-cta: #FBBF24;
+    --color-cta-hover: #F59E0B;
+    --color-cta-glow: rgba(251, 191, 36, 0.3);
+
+    --color-background: #0F0F23;
+    --color-foreground: #F8FAFC;
+    --color-card: #1A1A2E;
+    --color-card-border: #2A2A3E;
+
+    /* Semantic colors */
+    --color-success: #10B981;
+    --color-warning: #F59E0B;
+    --color-error: #EF4444;
+    --color-info: #3B82F6;
+
+    /* Typography */
+    --font-heading: 'Orbitron', 'Courier New', monospace;
+    --font-body: 'Exo 2', system-ui, -apple-system, sans-serif;
+
+    /* Effects */
+    --gradient-time: linear-gradient(135deg, #8B5CF6, #A78BFA, #3B82F6);
+    --gradient-cta: linear-gradient(135deg, #FBBF24, #F59E0B);
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: var(--font-body);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* Headings use Orbitron */
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+    font-weight: 600;
+    letter-spacing: -0.02em;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: hsl(var(--background));
+}
+
+::-webkit-scrollbar-thumb {
+  background: hsl(var(--muted));
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: hsl(var(--primary));
+}
+
+/* Glow effects */
+.glow-primary {
+  box-shadow: 0 0 20px var(--color-primary-glow);
+}
+
+.glow-secondary {
+  box-shadow: 0 0 20px var(--color-secondary-glow);
+}
+
+.glow-cta {
+  box-shadow: 0 0 30px var(--color-cta-glow);
+}
+
+.text-glow {
+  text-shadow: 0 0 10px var(--color-primary-glow);
+}
+
+/* Focus states - WCAG AAA compliant */
+*:focus-visible {
+  outline: 2px solid hsl(var(--primary));
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+button:focus-visible,
+a:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible {
+  outline: 2px solid hsl(var(--primary));
+  outline-offset: 2px;
+  box-shadow: 0 0 0 4px var(--color-primary-glow);
+}
+
+/* Time travel animation keyframes */
+@keyframes warp {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.05);
+    opacity: 0.8;
+  }
+}
+
+@keyframes pulse-glow {
+  0%, 100% {
+    box-shadow: 0 0 10px var(--color-primary-glow);
+  }
+  50% {
+    box-shadow: 0 0 30px var(--color-primary-glow), 0 0 60px var(--color-primary-glow);
+  }
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -1000px 0;
+  }
+  100% {
+    background-position: 1000px 0;
+  }
+}
+
+.animate-warp {
+  animation: warp 2s ease-in-out infinite;
+}
+
+.animate-pulse-glow {
+  animation: pulse-glow 2s ease-in-out infinite;
+}
+
+/* Gradient text */
+.gradient-text {
+  background: var(--gradient-time);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-family: var(--font-heading);
+}
+
+.gradient-cta {
+  background: var(--gradient-cta);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Card hover effects */
+.card-hover {
+  transition: all 0.3s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 40px rgba(99, 102, 241, 0.2);
+}
+
+/* Button transitions */
+button, a {
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Respect reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Loading shimmer effect */
+.loading-shimmer {
+  background: linear-gradient(
+    90deg,
+    var(--color-card) 0%,
+    hsl(var(--muted)) 50%,
+    var(--color-card) 100%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 2s infinite;
+}
+
+/* Solana wallet adapter overrides */
+.wallet-adapter-button {
+  background: hsl(var(--primary)) !important;
+  border-radius: 8px !important;
+  font-family: var(--font-body) !important;
+}
+
+.wallet-adapter-button:hover {
+  background: hsl(var(--secondary)) !important;
+  box-shadow: 0 0 20px var(--color-primary-glow) !important;
+}
+
+.wallet-adapter-modal-wrapper {
+  background: rgba(0, 0, 0, 0.8) !important;
+}
+
+.wallet-adapter-modal {
+  background: var(--color-card) !important;
+  border: 1px solid var(--color-card-border) !important;
+  border-radius: 12px !important;
 }
