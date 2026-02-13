@@ -1,0 +1,351 @@
+/**
+ * Unified Battle Storage & Management
+ * Global storage for all battle types
+ */
+
+import {
+  UnifiedBattle,
+  CreateBattleRequest,
+  BattleFilter,
+  BattleParticipant,
+  BattleFaction,
+  AutoGenerationConfig,
+  DEFAULT_AUTO_GENERATION_CONFIG
+} from './unifiedBattle';
+import { UnifiedBattleController } from './unifiedBattleController';
+import { getPersonality, PRESET_PERSONALITIES } from './agents/personality';
+
+// Global storage
+const unifiedBattles: Map<string, UnifiedBattleController> = new Map();
+let autoGenerationConfig = { ...DEFAULT_AUTO_GENERATION_CONFIG };
+let autoGenerationInterval: NodeJS.Timeout | null = null;
+
+/**
+ * Preset factions for quick battle creation
+ */
+export const PRESET_FACTIONS: Record<string, BattleFaction> = {
+  'classical-rome': {
+    id: 'classical-rome',
+    name: 'Classical Rome',
+    theme: 'Traditional Roman aesthetics preserved through centuries',
+    description: 'Roman Empire maintains classical architecture and culture',
+    color: '#CD7F32',
+    icon: '🏛️'
+  },
+  'tech-rome': {
+    id: 'tech-rome',
+    name: 'Tech Rome',
+    theme: 'Roman Empire embraces technological advancement',
+    description: 'Rome leads industrial revolution centuries early',
+    color: '#4A90E2',
+    icon: '⚡'
+  },
+  'peaceful-timeline': {
+    id: 'peaceful-timeline',
+    name: 'Peaceful Timeline',
+    theme: 'A world without major conflicts',
+    description: 'Humanity focuses on science and cooperation',
+    color: '#4CAF50',
+    icon: '🕊️'
+  },
+  'chaotic-timeline': {
+    id: 'chaotic-timeline',
+    name: 'Chaotic Timeline',
+    theme: 'A world of constant upheaval',
+    description: 'Rapid changes and unpredictable events',
+    color: '#F44336',
+    icon: '🌪️'
+  },
+  'retro-future': {
+    id: 'retro-future',
+    name: 'Retro Future',
+    theme: '1950s vision of the future',
+    description: 'Flying cars and chrome cities',
+    color: '#9C27B0',
+    icon: '🚀'
+  },
+  'cyberpunk': {
+    id: 'cyberpunk',
+    name: 'Cyberpunk',
+    theme: 'High tech, low life dystopia',
+    description: 'Neon cities and corporate control',
+    color: '#E91E63',
+    icon: '🌃'
+  }
+};
+
+/**
+ * Create a new unified battle
+ */
+export function createUnifiedBattle(request: CreateBattleRequest): UnifiedBattleController {
+  const battleId = `battle-${Date.now()}-${Math.random().toString(36).substr(2, 9)}`;
+
+  // Get or create factions
+  const factionA = request.factionA || PRESET_FACTIONS[request.participantA.factionId || 'classical-rome'];
+  const factionB = request.factionB || PRESET_FACTIONS[request.participantB.factionId || 'tech-rome'];
+
+  // Create participants
+  const participantA: BattleParticipant = {
+    type: request.participantA.type,
+    id: request.participantA.userId || request.participantA.agentId || `participant-a-${Date.now()}`,
+    name:
+      request.participantA.type === 'user'
+        ? `Player-${request.participantA.userId?.slice(0, 8)}`
+        : PRESET_PERSONALITIES.find(p => p.id === request.participantA.agentId)?.name || 'Agent A',
+    userId: request.participantA.userId,
+    personality: request.participantA.agentId,
+    faction: factionA
+  };
+
+  const participantB: BattleParticipant = {
+    type: request.participantB.type,
+    id: request.participantB.userId || request.participantB.agentId || `participant-b-${Date.now()}`,
+    name:
+      request.participantB.type === 'user'
+        ? `Player-${request.participantB.userId?.slice(0, 8)}`
+        : PRESET_PERSONALITIES.find(p => p.id === request.participantB.agentId)?.name || 'Agent B',
+    userId: request.participantB.userId,
+    personality: request.participantB.agentId,
+    faction: factionB
+  };
+
+  // Determine battle mode
+  let mode: 'pvp' | 'pva' | 'ava';
+  if (participantA.type === 'user' && participantB.type === 'user') {
+    mode = 'pvp';
+  } else if (participantA.type === 'agent' && participantB.type === 'agent') {
+    mode = 'ava';
+  } else {
+    mode = 'pva';
+  }
+
+  // Create battle
+  const battle: UnifiedBattle = {
+    id: battleId,
+    mode,
+    topic: request.topic,
+    description: request.description,
+    participantA,
+    participantB,
+    creator: request.creatorUserId
+      ? { type: 'user', userId: request.creatorUserId }
+      : { type: 'agent', agentId: 'system', trigger: 'timeline-logic' },
+    createdAt: new Date(),
+    rounds: request.rounds || 3,
+    roundDuration: request.roundDuration || 90,
+    status: 'pending',
+    currentRound: 0,
+    roundResults: [],
+    scoreboard: {
+      participantA: {
+        roundScores: [],
+        totalVotes: 0,
+        roundsWon: 0
+      },
+      participantB: {
+        roundScores: [],
+        totalVotes: 0,
+        roundsWon: 0
+      }
+    },
+    bettingPool: {
+      totalOnA: 0,
+      totalOnB: 0
+    },
+    mintedNFTs: {
+      factionA: 0,
+      factionB: 0
+    },
+    tags: request.tags || [],
+    autoGenerated: request.autoGenerated || false
+  };
+
+  const controller = new UnifiedBattleController(battle);
+  unifiedBattles.set(battleId, controller);
+
+  console.log(`[UnifiedBattle] Created: ${battleId} (${mode}) - "${request.topic}"`);
+
+  return controller;
+}
+
+/**
+ * Get battle controller
+ */
+export function getUnifiedBattle(battleId: string): UnifiedBattleController | undefined {
+  return unifiedBattles.get(battleId);
+}
+
+/**
+ * Get all battles with filter
+ */
+export function getAllUnifiedBattles(filter?: BattleFilter): UnifiedBattle[] {
+  let battles = Array.from(unifiedBattles.values()).map(controller => controller.getState());
+
+  if (filter) {
+    // Filter by mode
+    if (filter.mode && filter.mode !== 'all') {
+      battles = battles.filter(b => b.mode === filter.mode);
+    }
+
+    // Filter by status
+    if (filter.status && filter.status !== 'all') {
+      battles = battles.filter(b => b.status === filter.status);
+    }
+
+    // Filter by tags
+    if (filter.tags && filter.tags.length > 0) {
+      battles = battles.filter(b => b.tags?.some(tag => filter.tags!.includes(tag)));
+    }
+
+    // Filter by featured
+    if (filter.featured !== undefined) {
+      battles = battles.filter(b => b.featured === filter.featured);
+    }
+
+    // Filter by participant
+    if (filter.participantId) {
+      battles = battles.filter(
+        b =>
+          b.participantA.id === filter.participantId ||
+          b.participantB.id === filter.participantId ||
+          b.participantA.userId === filter.participantId ||
+          b.participantB.userId === filter.participantId
+      );
+    }
+  }
+
+  // Sort by created date (newest first)
+  battles.sort((a, b) => b.createdAt.getTime() - a.createdAt.getTime());
+
+  return battles;
+}
+
+/**
+ * Delete battle
+ */
+export function deleteUnifiedBattle(battleId: string): boolean {
+  return unifiedBattles.delete(battleId);
+}
+
+/**
+ * Agent Auto-Generation Logic
+ */
+export function startAutoGeneration(): void {
+  if (autoGenerationInterval) {
+    console.log('[AutoGen] Already running');
+    return;
+  }
+
+  console.log('[AutoGen] Starting auto-generation system');
+
+  // Initial generation
+  generateBattleIfNeeded();
+
+  // Set up interval
+  autoGenerationInterval = setInterval(() => {
+    generateBattleIfNeeded();
+  }, autoGenerationConfig.interval * 60 * 1000);
+}
+
+export function stopAutoGeneration(): void {
+  if (autoGenerationInterval) {
+    clearInterval(autoGenerationInterval);
+    autoGenerationInterval = null;
+    console.log('[AutoGen] Stopped auto-generation system');
+  }
+}
+
+export function updateAutoGenerationConfig(config: Partial<AutoGenerationConfig>): void {
+  autoGenerationConfig = { ...autoGenerationConfig, ...config };
+  console.log('[AutoGen] Config updated:', autoGenerationConfig);
+
+  // Restart if enabled
+  if (autoGenerationConfig.enabled && autoGenerationInterval) {
+    stopAutoGeneration();
+    startAutoGeneration();
+  }
+}
+
+/**
+ * Generate a battle if needed (based on config)
+ */
+function generateBattleIfNeeded(): void {
+  if (!autoGenerationConfig.enabled) {
+    return;
+  }
+
+  // Count active battles
+  const activeBattles = getAllUnifiedBattles({ status: 'active' });
+  const pendingBattles = getAllUnifiedBattles({ status: 'pending' });
+  const totalActive = activeBattles.length + pendingBattles.length;
+
+  console.log(`[AutoGen] Active/Pending battles: ${totalActive}/${autoGenerationConfig.maxActiveBattles}`);
+
+  // Check if we need to generate
+  if (totalActive >= autoGenerationConfig.maxActiveBattles) {
+    console.log('[AutoGen] Max battles reached, skipping generation');
+    return;
+  }
+
+  // Generate battle
+  const topic =
+    autoGenerationConfig.topicsPool[
+      Math.floor(Math.random() * autoGenerationConfig.topicsPool.length)
+    ];
+
+  // Randomly select two different agents
+  const agents = [...PRESET_PERSONALITIES];
+  const agentA = agents[Math.floor(Math.random() * agents.length)];
+  agents.splice(agents.indexOf(agentA), 1);
+  const agentB = agents[Math.floor(Math.random() * agents.length)];
+
+  // Randomly select two different factions
+  const factionIds = Object.keys(PRESET_FACTIONS);
+  const factionAId = factionIds[Math.floor(Math.random() * factionIds.length)];
+  factionIds.splice(factionIds.indexOf(factionAId), 1);
+  const factionBId = factionIds[Math.floor(Math.random() * factionIds.length)];
+
+  const request: CreateBattleRequest = {
+    mode: 'ava',
+    topic,
+    description: `AI Agents debate: ${topic}`,
+    participantA: {
+      type: 'agent',
+      agentId: agentA.id,
+      factionId: factionAId
+    },
+    participantB: {
+      type: 'agent',
+      agentId: agentB.id,
+      factionId: factionBId
+    },
+    rounds: 3,
+    autoGenerated: true,
+    tags: ['auto-generated', 'agent-vs-agent']
+  };
+
+  const controller = createUnifiedBattle(request);
+
+  // Auto-start the battle after a short delay
+  setTimeout(() => {
+    controller.start().catch(error => {
+      console.error('[AutoGen] Failed to start auto-generated battle:', error);
+    });
+  }, 5000);
+
+  console.log(`[AutoGen] Generated battle: ${controller.getState().id} - "${topic}"`);
+}
+
+/**
+ * Initialize system
+ */
+export function initializeUnifiedBattleSystem(): void {
+  console.log('[UnifiedBattle] Initializing system...');
+
+  // Start auto-generation
+  if (autoGenerationConfig.enabled) {
+    startAutoGeneration();
+  }
+
+  console.log('[UnifiedBattle] System initialized');
+}

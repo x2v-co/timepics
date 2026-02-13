@@ -38,16 +38,22 @@ export default function Home() {
                 Generate
               </Link>
               <Link
+                href="/arena"
+                className="text-foreground hover:text-accent transition-colors flex items-center gap-1"
+              >
+                ⚔️ Timeline War
+              </Link>
+              <Link
+                href="/paradox-test"
+                className="text-foreground hover:text-accent transition-colors flex items-center gap-1"
+              >
+                🌀 Paradox
+              </Link>
+              <Link
                 href="/gallery"
                 className="text-foreground hover:text-primary transition-colors"
               >
                 Gallery
-              </Link>
-              <Link
-                href="/timeline-wars"
-                className="text-foreground hover:text-accent transition-colors flex items-center gap-1"
-              >
-                ⚔️ Wars
               </Link>
               <WalletButton />
             </div>
@@ -117,52 +123,70 @@ export default function Home() {
 
         <Separator className="max-w-7xl mx-auto" />
 
-        {/* Timeline Wars Promotion */}
+        {/* Timeline War Preview */}
         <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-          <Card className="relative overflow-hidden bg-gradient-to-br from-amber-500/10 via-red-500/10 to-purple-500/10 border-accent/30">
-            <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PHBhdHRlcm4gaWQ9ImdyaWQiIHdpZHRoPSI2MCIgaGVpZ2h0PSI2MCIgcGF0dGVyblVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHBhdGggZD0iTSAxMCAwIEwgMCAwIDAgMTAiIGZpbGw9Im5vbmUiIHN0cm9rZT0icmdiYSgyNTEsMTkxLDM2LDAuMSkiIHN0cm9rZS13aWR0aD0iMSIvPjwvcGF0dGVybj48L2RlZnM+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmlkKSIvPjwvc3ZnPg==')] opacity-30" />
+          <Card className="relative overflow-hidden bg-gradient-to-br from-purple-500/10 via-blue-500/10 to-cyan-500/10 border-accent/30">
+            <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PHBhdHRlcm4gaWQ9ImdyaWQiIHdpZHRoPSI2MCIgaGVpZ2h0PSI2MCIgcGF0dGVyblVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHBhdGggZD0iTSAxMCAwIEwgMCAwIDAgMTAiIGZpbGw9Im5vbmUiIHN0cm9rZT0icmdiYSgyNTUsMTkwLDYyLDAuMSkiIHN0cm9rZS13aWR0aD0iMSIvPjwvcGF0dGVybj48L2RlZnM+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmlkKSIvPjwvc3ZnPg==')] opacity-30" />
             <CardContent className="relative z-10 p-8 sm:p-12">
               <div className="flex flex-col md:flex-row items-center gap-8">
                 <div className="flex-1 text-center md:text-left">
                   <Badge variant="outline" className="mb-4 border-accent text-accent">
-                    🔥 Live Now
+                    🔥 Live Battles
                   </Badge>
                   <h2 className="text-3xl sm:text-4xl font-bold mb-4 flex items-center gap-3 justify-center md:justify-start">
                     <span className="text-4xl">⚔️</span>
-                    Timeline Wars
+                    Timeline War
                   </h2>
                   <p className="text-lg text-muted-foreground mb-6">
-                    Battle for the canonical timeline! Join a faction, create NFTs, and fight for your vision of history.
-                    <strong className="text-accent block mt-2">500 SOL Prize Pool • 156 NFTs Staked</strong>
+                    Watch AI Agents compete in real-time visual battles. Vote, bet, and win Arcade Tokens!
+                    <strong className="text-accent block mt-2">3 Live Battles • 40K+ Votes • 131K SOL Prize Pool</strong>
                   </p>
                   <div className="flex flex-wrap gap-3 justify-center md:justify-start">
-                    <Button asChild size="lg" className="bg-gradient-to-r from-amber-500 to-red-500 hover:shadow-glow-cta">
-                      <Link href="/timeline-wars">
+                    <Button asChild size="lg" className="bg-gradient-to-r from-purple-500 to-blue-500 hover:shadow-glow-cta">
+                      <Link href="/arena">
                         <span className="text-xl mr-2">⚔️</span>
-                        Join the Battle
+                        Enter Timeline War
                       </Link>
                     </Button>
                     <Button asChild variant="outline" size="lg">
-                      <Link href="/timeline-wars">
-                        View Leaderboard
+                      <Link href="/arena">
+                        View All Battles
                       </Link>
                     </Button>
                   </div>
                 </div>
 
-                <div className="flex-shrink-0">
-                  <div className="grid grid-cols-2 gap-4">
-                    <div className="text-center p-4 bg-background/50 rounded-lg backdrop-blur-sm">
-                      <p className="text-3xl font-bold text-amber-500">42</p>
-                      <p className="text-xs text-muted-foreground">⚙️ Steam</p>
-                    </div>
-                    <div className="text-center p-4 bg-background/50 rounded-lg backdrop-blur-sm">
-                      <p className="text-3xl font-bold text-green-500">47</p>
-                      <p className="text-xs text-muted-foreground">🧬 Bio</p>
-                    </div>
-                    <div className="col-span-2 text-center p-3 bg-background/50 rounded-lg backdrop-blur-sm">
-                      <p className="text-sm font-semibold text-accent">⏰ 4d 12h left</p>
-                    </div>
+                <div className="flex-shrink-0 w-full md:w-auto">
+                  <div className="grid grid-cols-1 gap-3 w-full md:w-64">
+                    {/* Battle 1: Tesla vs Edison */}
+                    <Link href="/arena/battle-tesla-edison" className="block p-3 bg-background/60 rounded-lg hover:bg-background/80 transition-colors">
+                      <div className="flex items-center gap-2 mb-1">
+                        <span className="text-lg">⚡</span>
+                        <span className="text-xs font-semibold text-blue-400">LIVE</span>
+                      </div>
+                      <p className="text-sm font-medium truncate">Tesla vs Edison</p>
+                      <p className="text-xs text-muted-foreground">Round 2/3 • 1,847 votes</p>
+                    </Link>
+
+                    {/* Battle 2: Rome vs Carthage */}
+                    <Link href="/arena/battle-rome-carthage" className="block p-3 bg-background/60 rounded-lg hover:bg-background/80 transition-colors">
+                      <div className="flex items-center gap-2 mb-1">
+                        <span className="text-lg">🏛️</span>
+                        <span className="text-xs font-semibold text-green-400">LIVE</span>
+                      </div>
+                      <p className="text-sm font-medium truncate">Rome Never Fell</p>
+                      <p className="text-xs text-muted-foreground">Round 1/3 • 445 votes</p>
+                    </Link>
+
+                    {/* Battle 3: Napoleon */}
+                    <Link href="/arena/battle-napoleon-waterloo" className="block p-3 bg-background/60 rounded-lg hover:bg-background/80 transition-colors">
+                      <div className="flex items-center gap-2 mb-1">
+                        <span className="text-lg">🦅</span>
+                        <span className="text-xs font-semibold text-gray-400">ENDED</span>
+                      </div>
+                      <p className="text-sm font-medium truncate">Napoleon Wins</p>
+                      <p className="text-xs text-muted-foreground">Winner: French Empire</p>
+                    </Link>
                   </div>
                 </div>
               </div>

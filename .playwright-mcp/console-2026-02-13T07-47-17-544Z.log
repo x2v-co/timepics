@@ -1,0 +1,2314 @@
+[  476158ms] [ERROR] ./components/CreateBattleModal.tsx:23:1
+Module not found: Can't resolve '@/components/ui/scroll-area'
+  21 | import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+  22 | import { Card, CardContent } from '@/components/ui/card';
+> 23 | import { ScrollArea } from '@/components/ui/scroll-area';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 | import { Users, Bot, Swords, Sparkles, RefreshCw, Zap, Crown } from 'lucide-react';
+  25 |
+  26 | interface ParadoxTopic {
+
+Import map: aliased to relative './components/ui/scroll-area' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./components/CreateBattleModal.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/CreateBattleModal.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  476484ms] [ERROR] ./components/CreateBattleModal.tsx:23:1
+Module not found: Can't resolve '@/components/ui/scroll-area'
+  21 | import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+  22 | import { Card, CardContent } from '@/components/ui/card';
+> 23 | import { ScrollArea } from '@/components/ui/scroll-area';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 | import { Users, Bot, Swords, Sparkles, RefreshCw, Zap, Crown } from 'lucide-react';
+  25 |
+  26 | interface ParadoxTopic {
+
+Import map: aliased to relative './components/ui/scroll-area' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./components/CreateBattleModal.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/CreateBattleModal.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  477047ms] [ERROR] ./components/CreateBattleModal.tsx:23:1
+Module not found: Can't resolve '@/components/ui/scroll-area'
+  21 | import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+  22 | import { Card, CardContent } from '@/components/ui/card';
+> 23 | import { ScrollArea } from '@/components/ui/scroll-area';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 | import { Users, Bot, Swords, Sparkles, RefreshCw, Zap, Crown } from 'lucide-react';
+  25 |
+  26 | interface ParadoxTopic {
+
+Import map: aliased to relative './components/ui/scroll-area' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./components/CreateBattleModal.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/CreateBattleModal.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  477555ms] [ERROR] ./components/CreateBattleModal.tsx:23:1
+Module not found: Can't resolve '@/components/ui/scroll-area'
+  21 | import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+  22 | import { Card, CardContent } from '@/components/ui/card';
+> 23 | import { ScrollArea } from '@/components/ui/scroll-area';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 | import { Users, Bot, Swords, Sparkles, RefreshCw, Zap, Crown } from 'lucide-react';
+  25 |
+  26 | interface ParadoxTopic {
+
+Import map: aliased to relative './components/ui/scroll-area' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./components/CreateBattleModal.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/CreateBattleModal.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  482037ms] [ERROR] ./components/CreateBattleModal.tsx:23:1
+Module not found: Can't resolve '@/components/ui/scroll-area'
+  21 | import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+  22 | import { Card, CardContent } from '@/components/ui/card';
+> 23 | import { ScrollArea } from '@/components/ui/scroll-area';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 | import { Users, Bot, Swords, Sparkles, RefreshCw, Zap, Crown } from 'lucide-react';
+  25 |
+  26 | interface ParadoxTopic {
+
+Import map: aliased to relative './components/ui/scroll-area' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./components/CreateBattleModal.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/CreateBattleModal.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  487036ms] [ERROR] ./components/CreateBattleModal.tsx:23:1
+Module not found: Can't resolve '@/components/ui/scroll-area'
+  21 | import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+  22 | import { Card, CardContent } from '@/components/ui/card';
+> 23 | import { ScrollArea } from '@/components/ui/scroll-area';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 | import { Users, Bot, Swords, Sparkles, RefreshCw, Zap, Crown } from 'lucide-react';
+  25 |
+  26 | interface ParadoxTopic {
+
+Import map: aliased to relative './components/ui/scroll-area' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./components/CreateBattleModal.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/CreateBattleModal.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  492032ms] [ERROR] ./components/CreateBattleModal.tsx:23:1
+Module not found: Can't resolve '@/components/ui/scroll-area'
+  21 | import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+  22 | import { Card, CardContent } from '@/components/ui/card';
+> 23 | import { ScrollArea } from '@/components/ui/scroll-area';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 | import { Users, Bot, Swords, Sparkles, RefreshCw, Zap, Crown } from 'lucide-react';
+  25 |
+  26 | interface ParadoxTopic {
+
+Import map: aliased to relative './components/ui/scroll-area' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./components/CreateBattleModal.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/CreateBattleModal.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  497033ms] [ERROR] ./components/CreateBattleModal.tsx:23:1
+Module not found: Can't resolve '@/components/ui/scroll-area'
+  21 | import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+  22 | import { Card, CardContent } from '@/components/ui/card';
+> 23 | import { ScrollArea } from '@/components/ui/scroll-area';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 | import { Users, Bot, Swords, Sparkles, RefreshCw, Zap, Crown } from 'lucide-react';
+  25 |
+  26 | interface ParadoxTopic {
+
+Import map: aliased to relative './components/ui/scroll-area' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./components/CreateBattleModal.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/CreateBattleModal.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  501413ms] [ERROR] ./components/CreateBattleModal.tsx:23:1
+Module not found: Can't resolve '@/components/ui/scroll-area'
+  21 | import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+  22 | import { Card, CardContent } from '@/components/ui/card';
+> 23 | import { ScrollArea } from '@/components/ui/scroll-area';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 | import { Users, Bot, Swords, Sparkles, RefreshCw, Zap, Crown } from 'lucide-react';
+  25 |
+  26 | interface ParadoxTopic {
+
+Import map: aliased to relative './components/ui/scroll-area' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./components/CreateBattleModal.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/CreateBattleModal.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  502050ms] [ERROR] ./components/CreateBattleModal.tsx:23:1
+Module not found: Can't resolve '@/components/ui/scroll-area'
+  21 | import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+  22 | import { Card, CardContent } from '@/components/ui/card';
+> 23 | import { ScrollArea } from '@/components/ui/scroll-area';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 | import { Users, Bot, Swords, Sparkles, RefreshCw, Zap, Crown } from 'lucide-react';
+  25 |
+  26 | interface ParadoxTopic {
+
+Import map: aliased to relative './components/ui/scroll-area' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./components/CreateBattleModal.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/CreateBattleModal.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  505503ms] [ERROR] ./components/CreateBattleModal.tsx:23:1
+Module not found: Can't resolve '@/components/ui/scroll-area'
+  21 | import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+  22 | import { Card, CardContent } from '@/components/ui/card';
+> 23 | import { ScrollArea } from '@/components/ui/scroll-area';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 | import { Users, Bot, Swords, Sparkles, RefreshCw, Zap, Crown } from 'lucide-react';
+  25 |
+  26 | interface ParadoxTopic {
+
+Import map: aliased to relative './components/ui/scroll-area' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./components/CreateBattleModal.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/CreateBattleModal.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  505591ms] [ERROR] ./components/CreateBattleModal.tsx:23:1
+Module not found: Can't resolve '@/components/ui/scroll-area'
+  21 | import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+  22 | import { Card, CardContent } from '@/components/ui/card';
+> 23 | import { ScrollArea } from '@/components/ui/scroll-area';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 | import { Users, Bot, Swords, Sparkles, RefreshCw, Zap, Crown } from 'lucide-react';
+  25 |
+  26 | interface ParadoxTopic {
+
+Import map: aliased to relative './components/ui/scroll-area' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./components/CreateBattleModal.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/CreateBattleModal.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  505656ms] [ERROR] ./components/CreateBattleModal.tsx:23:1
+Module not found: Can't resolve '@/components/ui/scroll-area'
+  21 | import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+  22 | import { Card, CardContent } from '@/components/ui/card';
+> 23 | import { ScrollArea } from '@/components/ui/scroll-area';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 | import { Users, Bot, Swords, Sparkles, RefreshCw, Zap, Crown } from 'lucide-react';
+  25 |
+  26 | interface ParadoxTopic {
+
+Import map: aliased to relative './components/ui/scroll-area' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./components/CreateBattleModal.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/CreateBattleModal.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  505732ms] [ERROR] ./components/CreateBattleModal.tsx:23:1
+Module not found: Can't resolve '@/components/ui/scroll-area'
+  21 | import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+  22 | import { Card, CardContent } from '@/components/ui/card';
+> 23 | import { ScrollArea } from '@/components/ui/scroll-area';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 | import { Users, Bot, Swords, Sparkles, RefreshCw, Zap, Crown } from 'lucide-react';
+  25 |
+  26 | interface ParadoxTopic {
+
+Import map: aliased to relative './components/ui/scroll-area' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./components/CreateBattleModal.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/CreateBattleModal.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  505785ms] [ERROR] ./components/CreateBattleModal.tsx:23:1
+Module not found: Can't resolve '@/components/ui/scroll-area'
+  21 | import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+  22 | import { Card, CardContent } from '@/components/ui/card';
+> 23 | import { ScrollArea } from '@/components/ui/scroll-area';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 | import { Users, Bot, Swords, Sparkles, RefreshCw, Zap, Crown } from 'lucide-react';
+  25 |
+  26 | interface ParadoxTopic {
+
+Import map: aliased to relative './components/ui/scroll-area' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./components/CreateBattleModal.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/CreateBattleModal.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  505844ms] [ERROR] ./components/CreateBattleModal.tsx:23:1
+Module not found: Can't resolve '@/components/ui/scroll-area'
+  21 | import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+  22 | import { Card, CardContent } from '@/components/ui/card';
+> 23 | import { ScrollArea } from '@/components/ui/scroll-area';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 | import { Users, Bot, Swords, Sparkles, RefreshCw, Zap, Crown } from 'lucide-react';
+  25 |
+  26 | interface ParadoxTopic {
+
+Import map: aliased to relative './components/ui/scroll-area' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./components/CreateBattleModal.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/CreateBattleModal.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  505940ms] [ERROR] ./components/CreateBattleModal.tsx:23:1
+Module not found: Can't resolve '@/components/ui/scroll-area'
+  21 | import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+  22 | import { Card, CardContent } from '@/components/ui/card';
+> 23 | import { ScrollArea } from '@/components/ui/scroll-area';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 | import { Users, Bot, Swords, Sparkles, RefreshCw, Zap, Crown } from 'lucide-react';
+  25 |
+  26 | interface ParadoxTopic {
+
+Import map: aliased to relative './components/ui/scroll-area' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./components/CreateBattleModal.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/CreateBattleModal.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  505994ms] [ERROR] ./components/CreateBattleModal.tsx:23:1
+Module not found: Can't resolve '@/components/ui/scroll-area'
+  21 | import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+  22 | import { Card, CardContent } from '@/components/ui/card';
+> 23 | import { ScrollArea } from '@/components/ui/scroll-area';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 | import { Users, Bot, Swords, Sparkles, RefreshCw, Zap, Crown } from 'lucide-react';
+  25 |
+  26 | interface ParadoxTopic {
+
+Import map: aliased to relative './components/ui/scroll-area' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./components/CreateBattleModal.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/CreateBattleModal.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  506691ms] [ERROR] ./components/CreateBattleModal.tsx:23:1
+Module not found: Can't resolve '@/components/ui/scroll-area'
+  21 | import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+  22 | import { Card, CardContent } from '@/components/ui/card';
+> 23 | import { ScrollArea } from '@/components/ui/scroll-area';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 | import { Users, Bot, Swords, Sparkles, RefreshCw, Zap, Crown } from 'lucide-react';
+  25 |
+  26 | interface ParadoxTopic {
+
+Import map: aliased to relative './components/ui/scroll-area' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./components/CreateBattleModal.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/CreateBattleModal.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  506789ms] [ERROR] ./components/CreateBattleModal.tsx:23:1
+Module not found: Can't resolve '@/components/ui/scroll-area'
+  21 | import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+  22 | import { Card, CardContent } from '@/components/ui/card';
+> 23 | import { ScrollArea } from '@/components/ui/scroll-area';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 | import { Users, Bot, Swords, Sparkles, RefreshCw, Zap, Crown } from 'lucide-react';
+  25 |
+  26 | interface ParadoxTopic {
+
+Import map: aliased to relative './components/ui/scroll-area' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./components/CreateBattleModal.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/CreateBattleModal.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  506847ms] [ERROR] ./components/CreateBattleModal.tsx:23:1
+Module not found: Can't resolve '@/components/ui/scroll-area'
+  21 | import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+  22 | import { Card, CardContent } from '@/components/ui/card';
+> 23 | import { ScrollArea } from '@/components/ui/scroll-area';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 | import { Users, Bot, Swords, Sparkles, RefreshCw, Zap, Crown } from 'lucide-react';
+  25 |
+  26 | interface ParadoxTopic {
+
+Import map: aliased to relative './components/ui/scroll-area' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./components/CreateBattleModal.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/CreateBattleModal.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  506897ms] [ERROR] ./components/CreateBattleModal.tsx:23:1
+Module not found: Can't resolve '@/components/ui/scroll-area'
+  21 | import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+  22 | import { Card, CardContent } from '@/components/ui/card';
+> 23 | import { ScrollArea } from '@/components/ui/scroll-area';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 | import { Users, Bot, Swords, Sparkles, RefreshCw, Zap, Crown } from 'lucide-react';
+  25 |
+  26 | interface ParadoxTopic {
+
+Import map: aliased to relative './components/ui/scroll-area' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./components/CreateBattleModal.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/CreateBattleModal.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  506942ms] [ERROR] ./components/CreateBattleModal.tsx:23:1
+Module not found: Can't resolve '@/components/ui/scroll-area'
+  21 | import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+  22 | import { Card, CardContent } from '@/components/ui/card';
+> 23 | import { ScrollArea } from '@/components/ui/scroll-area';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 | import { Users, Bot, Swords, Sparkles, RefreshCw, Zap, Crown } from 'lucide-react';
+  25 |
+  26 | interface ParadoxTopic {
+
+Import map: aliased to relative './components/ui/scroll-area' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./components/CreateBattleModal.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/CreateBattleModal.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  506991ms] [ERROR] ./components/CreateBattleModal.tsx:23:1
+Module not found: Can't resolve '@/components/ui/scroll-area'
+  21 | import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+  22 | import { Card, CardContent } from '@/components/ui/card';
+> 23 | import { ScrollArea } from '@/components/ui/scroll-area';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 | import { Users, Bot, Swords, Sparkles, RefreshCw, Zap, Crown } from 'lucide-react';
+  25 |
+  26 | interface ParadoxTopic {
+
+Import map: aliased to relative './components/ui/scroll-area' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./components/CreateBattleModal.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/CreateBattleModal.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  507095ms] [ERROR] ./components/CreateBattleModal.tsx:23:1
+Module not found: Can't resolve '@/components/ui/scroll-area'
+  21 | import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+  22 | import { Card, CardContent } from '@/components/ui/card';
+> 23 | import { ScrollArea } from '@/components/ui/scroll-area';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 | import { Users, Bot, Swords, Sparkles, RefreshCw, Zap, Crown } from 'lucide-react';
+  25 |
+  26 | interface ParadoxTopic {
+
+Import map: aliased to relative './components/ui/scroll-area' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./components/CreateBattleModal.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/CreateBattleModal.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  507143ms] [ERROR] ./components/CreateBattleModal.tsx:23:1
+Module not found: Can't resolve '@/components/ui/scroll-area'
+  21 | import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+  22 | import { Card, CardContent } from '@/components/ui/card';
+> 23 | import { ScrollArea } from '@/components/ui/scroll-area';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 | import { Users, Bot, Swords, Sparkles, RefreshCw, Zap, Crown } from 'lucide-react';
+  25 |
+  26 | interface ParadoxTopic {
+
+Import map: aliased to relative './components/ui/scroll-area' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./components/CreateBattleModal.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/CreateBattleModal.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  507193ms] [ERROR] ./components/CreateBattleModal.tsx:23:1
+Module not found: Can't resolve '@/components/ui/scroll-area'
+  21 | import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+  22 | import { Card, CardContent } from '@/components/ui/card';
+> 23 | import { ScrollArea } from '@/components/ui/scroll-area';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 | import { Users, Bot, Swords, Sparkles, RefreshCw, Zap, Crown } from 'lucide-react';
+  25 |
+  26 | interface ParadoxTopic {
+
+Import map: aliased to relative './components/ui/scroll-area' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./components/CreateBattleModal.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/CreateBattleModal.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  507336ms] [ERROR] ./components/CreateBattleModal.tsx:23:1
+Module not found: Can't resolve '@/components/ui/scroll-area'
+  21 | import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+  22 | import { Card, CardContent } from '@/components/ui/card';
+> 23 | import { ScrollArea } from '@/components/ui/scroll-area';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 | import { Users, Bot, Swords, Sparkles, RefreshCw, Zap, Crown } from 'lucide-react';
+  25 |
+  26 | interface ParadoxTopic {
+
+Import map: aliased to relative './components/ui/scroll-area' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./components/CreateBattleModal.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/CreateBattleModal.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  507411ms] [ERROR] ./components/CreateBattleModal.tsx:23:1
+Module not found: Can't resolve '@/components/ui/scroll-area'
+  21 | import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+  22 | import { Card, CardContent } from '@/components/ui/card';
+> 23 | import { ScrollArea } from '@/components/ui/scroll-area';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 | import { Users, Bot, Swords, Sparkles, RefreshCw, Zap, Crown } from 'lucide-react';
+  25 |
+  26 | interface ParadoxTopic {
+
+Import map: aliased to relative './components/ui/scroll-area' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./components/CreateBattleModal.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/CreateBattleModal.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  507453ms] [ERROR] ./components/CreateBattleModal.tsx:23:1
+Module not found: Can't resolve '@/components/ui/scroll-area'
+  21 | import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+  22 | import { Card, CardContent } from '@/components/ui/card';
+> 23 | import { ScrollArea } from '@/components/ui/scroll-area';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 | import { Users, Bot, Swords, Sparkles, RefreshCw, Zap, Crown } from 'lucide-react';
+  25 |
+  26 | interface ParadoxTopic {
+
+Import map: aliased to relative './components/ui/scroll-area' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./components/CreateBattleModal.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/CreateBattleModal.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  507498ms] [ERROR] ./components/CreateBattleModal.tsx:23:1
+Module not found: Can't resolve '@/components/ui/scroll-area'
+  21 | import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+  22 | import { Card, CardContent } from '@/components/ui/card';
+> 23 | import { ScrollArea } from '@/components/ui/scroll-area';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 | import { Users, Bot, Swords, Sparkles, RefreshCw, Zap, Crown } from 'lucide-react';
+  25 |
+  26 | interface ParadoxTopic {
+
+Import map: aliased to relative './components/ui/scroll-area' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./components/CreateBattleModal.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/CreateBattleModal.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  507695ms] [ERROR] ./components/CreateBattleModal.tsx:23:1
+Module not found: Can't resolve '@/components/ui/scroll-area'
+  21 | import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+  22 | import { Card, CardContent } from '@/components/ui/card';
+> 23 | import { ScrollArea } from '@/components/ui/scroll-area';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 | import { Users, Bot, Swords, Sparkles, RefreshCw, Zap, Crown } from 'lucide-react';
+  25 |
+  26 | interface ParadoxTopic {
+
+Import map: aliased to relative './components/ui/scroll-area' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./components/CreateBattleModal.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/CreateBattleModal.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  507785ms] [ERROR] ./components/CreateBattleModal.tsx:23:1
+Module not found: Can't resolve '@/components/ui/scroll-area'
+  21 | import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+  22 | import { Card, CardContent } from '@/components/ui/card';
+> 23 | import { ScrollArea } from '@/components/ui/scroll-area';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 | import { Users, Bot, Swords, Sparkles, RefreshCw, Zap, Crown } from 'lucide-react';
+  25 |
+  26 | interface ParadoxTopic {
+
+Import map: aliased to relative './components/ui/scroll-area' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./components/CreateBattleModal.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/CreateBattleModal.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  507875ms] [ERROR] ./components/CreateBattleModal.tsx:23:1
+Module not found: Can't resolve '@/components/ui/scroll-area'
+  21 | import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+  22 | import { Card, CardContent } from '@/components/ui/card';
+> 23 | import { ScrollArea } from '@/components/ui/scroll-area';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 | import { Users, Bot, Swords, Sparkles, RefreshCw, Zap, Crown } from 'lucide-react';
+  25 |
+  26 | interface ParadoxTopic {
+
+Import map: aliased to relative './components/ui/scroll-area' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./components/CreateBattleModal.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/CreateBattleModal.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  507957ms] [ERROR] ./components/CreateBattleModal.tsx:23:1
+Module not found: Can't resolve '@/components/ui/scroll-area'
+  21 | import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+  22 | import { Card, CardContent } from '@/components/ui/card';
+> 23 | import { ScrollArea } from '@/components/ui/scroll-area';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 | import { Users, Bot, Swords, Sparkles, RefreshCw, Zap, Crown } from 'lucide-react';
+  25 |
+  26 | interface ParadoxTopic {
+
+Import map: aliased to relative './components/ui/scroll-area' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./components/CreateBattleModal.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/CreateBattleModal.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  508059ms] [ERROR] ./components/CreateBattleModal.tsx:23:1
+Module not found: Can't resolve '@/components/ui/scroll-area'
+  21 | import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+  22 | import { Card, CardContent } from '@/components/ui/card';
+> 23 | import { ScrollArea } from '@/components/ui/scroll-area';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 | import { Users, Bot, Swords, Sparkles, RefreshCw, Zap, Crown } from 'lucide-react';
+  25 |
+  26 | interface ParadoxTopic {
+
+Import map: aliased to relative './components/ui/scroll-area' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./components/CreateBattleModal.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/CreateBattleModal.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  508301ms] [ERROR] ./components/CreateBattleModal.tsx:23:1
+Module not found: Can't resolve '@/components/ui/scroll-area'
+  21 | import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+  22 | import { Card, CardContent } from '@/components/ui/card';
+> 23 | import { ScrollArea } from '@/components/ui/scroll-area';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 | import { Users, Bot, Swords, Sparkles, RefreshCw, Zap, Crown } from 'lucide-react';
+  25 |
+  26 | interface ParadoxTopic {
+
+Import map: aliased to relative './components/ui/scroll-area' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./components/CreateBattleModal.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/CreateBattleModal.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  508371ms] [ERROR] ./components/CreateBattleModal.tsx:23:1
+Module not found: Can't resolve '@/components/ui/scroll-area'
+  21 | import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+  22 | import { Card, CardContent } from '@/components/ui/card';
+> 23 | import { ScrollArea } from '@/components/ui/scroll-area';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 | import { Users, Bot, Swords, Sparkles, RefreshCw, Zap, Crown } from 'lucide-react';
+  25 |
+  26 | interface ParadoxTopic {
+
+Import map: aliased to relative './components/ui/scroll-area' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./components/CreateBattleModal.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/CreateBattleModal.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  508484ms] [ERROR] ./components/CreateBattleModal.tsx:23:1
+Module not found: Can't resolve '@/components/ui/scroll-area'
+  21 | import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+  22 | import { Card, CardContent } from '@/components/ui/card';
+> 23 | import { ScrollArea } from '@/components/ui/scroll-area';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 | import { Users, Bot, Swords, Sparkles, RefreshCw, Zap, Crown } from 'lucide-react';
+  25 |
+  26 | interface ParadoxTopic {
+
+Import map: aliased to relative './components/ui/scroll-area' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./components/CreateBattleModal.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/CreateBattleModal.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  508744ms] [ERROR] ./components/CreateBattleModal.tsx:23:1
+Module not found: Can't resolve '@/components/ui/scroll-area'
+  21 | import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+  22 | import { Card, CardContent } from '@/components/ui/card';
+> 23 | import { ScrollArea } from '@/components/ui/scroll-area';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 | import { Users, Bot, Swords, Sparkles, RefreshCw, Zap, Crown } from 'lucide-react';
+  25 |
+  26 | interface ParadoxTopic {
+
+Import map: aliased to relative './components/ui/scroll-area' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./components/CreateBattleModal.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/CreateBattleModal.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  509368ms] [ERROR] ./components/CreateBattleModal.tsx:23:1
+Module not found: Can't resolve '@/components/ui/scroll-area'
+  21 | import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+  22 | import { Card, CardContent } from '@/components/ui/card';
+> 23 | import { ScrollArea } from '@/components/ui/scroll-area';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 | import { Users, Bot, Swords, Sparkles, RefreshCw, Zap, Crown } from 'lucide-react';
+  25 |
+  26 | interface ParadoxTopic {
+
+Import map: aliased to relative './components/ui/scroll-area' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./components/CreateBattleModal.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/CreateBattleModal.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  509440ms] [ERROR] ./components/CreateBattleModal.tsx:23:1
+Module not found: Can't resolve '@/components/ui/scroll-area'
+  21 | import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+  22 | import { Card, CardContent } from '@/components/ui/card';
+> 23 | import { ScrollArea } from '@/components/ui/scroll-area';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 | import { Users, Bot, Swords, Sparkles, RefreshCw, Zap, Crown } from 'lucide-react';
+  25 |
+  26 | interface ParadoxTopic {
+
+Import map: aliased to relative './components/ui/scroll-area' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./components/CreateBattleModal.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/CreateBattleModal.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  509532ms] [ERROR] ./components/CreateBattleModal.tsx:23:1
+Module not found: Can't resolve '@/components/ui/scroll-area'
+  21 | import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+  22 | import { Card, CardContent } from '@/components/ui/card';
+> 23 | import { ScrollArea } from '@/components/ui/scroll-area';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 | import { Users, Bot, Swords, Sparkles, RefreshCw, Zap, Crown } from 'lucide-react';
+  25 |
+  26 | interface ParadoxTopic {
+
+Import map: aliased to relative './components/ui/scroll-area' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./components/CreateBattleModal.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/CreateBattleModal.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  509606ms] [ERROR] ./components/CreateBattleModal.tsx:23:1
+Module not found: Can't resolve '@/components/ui/scroll-area'
+  21 | import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+  22 | import { Card, CardContent } from '@/components/ui/card';
+> 23 | import { ScrollArea } from '@/components/ui/scroll-area';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 | import { Users, Bot, Swords, Sparkles, RefreshCw, Zap, Crown } from 'lucide-react';
+  25 |
+  26 | interface ParadoxTopic {
+
+Import map: aliased to relative './components/ui/scroll-area' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./components/CreateBattleModal.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/CreateBattleModal.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  510540ms] [ERROR] ./components/CreateBattleModal.tsx:23:1
+Module not found: Can't resolve '@/components/ui/scroll-area'
+  21 | import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+  22 | import { Card, CardContent } from '@/components/ui/card';
+> 23 | import { ScrollArea } from '@/components/ui/scroll-area';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 | import { Users, Bot, Swords, Sparkles, RefreshCw, Zap, Crown } from 'lucide-react';
+  25 |
+  26 | interface ParadoxTopic {
+
+Import map: aliased to relative './components/ui/scroll-area' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./components/CreateBattleModal.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/CreateBattleModal.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  510631ms] [ERROR] ./components/CreateBattleModal.tsx:23:1
+Module not found: Can't resolve '@/components/ui/scroll-area'
+  21 | import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+  22 | import { Card, CardContent } from '@/components/ui/card';
+> 23 | import { ScrollArea } from '@/components/ui/scroll-area';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 | import { Users, Bot, Swords, Sparkles, RefreshCw, Zap, Crown } from 'lucide-react';
+  25 |
+  26 | interface ParadoxTopic {
+
+Import map: aliased to relative './components/ui/scroll-area' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./components/CreateBattleModal.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/CreateBattleModal.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  511616ms] [ERROR] ./components/CreateBattleModal.tsx:23:1
+Module not found: Can't resolve '@/components/ui/scroll-area'
+  21 | import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+  22 | import { Card, CardContent } from '@/components/ui/card';
+> 23 | import { ScrollArea } from '@/components/ui/scroll-area';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 | import { Users, Bot, Swords, Sparkles, RefreshCw, Zap, Crown } from 'lucide-react';
+  25 |
+  26 | interface ParadoxTopic {
+
+Import map: aliased to relative './components/ui/scroll-area' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./components/CreateBattleModal.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/CreateBattleModal.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  511685ms] [ERROR] ./components/CreateBattleModal.tsx:23:1
+Module not found: Can't resolve '@/components/ui/scroll-area'
+  21 | import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+  22 | import { Card, CardContent } from '@/components/ui/card';
+> 23 | import { ScrollArea } from '@/components/ui/scroll-area';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 | import { Users, Bot, Swords, Sparkles, RefreshCw, Zap, Crown } from 'lucide-react';
+  25 |
+  26 | interface ParadoxTopic {
+
+Import map: aliased to relative './components/ui/scroll-area' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./components/CreateBattleModal.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/CreateBattleModal.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  512030ms] [ERROR] ./components/CreateBattleModal.tsx:23:1
+Module not found: Can't resolve '@/components/ui/scroll-area'
+  21 | import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+  22 | import { Card, CardContent } from '@/components/ui/card';
+> 23 | import { ScrollArea } from '@/components/ui/scroll-area';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 | import { Users, Bot, Swords, Sparkles, RefreshCw, Zap, Crown } from 'lucide-react';
+  25 |
+  26 | interface ParadoxTopic {
+
+Import map: aliased to relative './components/ui/scroll-area' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./components/CreateBattleModal.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/CreateBattleModal.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  512309ms] [ERROR] ./components/CreateBattleModal.tsx:23:1
+Module not found: Can't resolve '@/components/ui/scroll-area'
+  21 | import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+  22 | import { Card, CardContent } from '@/components/ui/card';
+> 23 | import { ScrollArea } from '@/components/ui/scroll-area';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 | import { Users, Bot, Swords, Sparkles, RefreshCw, Zap, Crown } from 'lucide-react';
+  25 |
+  26 | interface ParadoxTopic {
+
+Import map: aliased to relative './components/ui/scroll-area' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./components/CreateBattleModal.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/CreateBattleModal.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  517040ms] [ERROR] ./components/CreateBattleModal.tsx:23:1
+Module not found: Can't resolve '@/components/ui/scroll-area'
+  21 | import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+  22 | import { Card, CardContent } from '@/components/ui/card';
+> 23 | import { ScrollArea } from '@/components/ui/scroll-area';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 | import { Users, Bot, Swords, Sparkles, RefreshCw, Zap, Crown } from 'lucide-react';
+  25 |
+  26 | interface ParadoxTopic {
+
+Import map: aliased to relative './components/ui/scroll-area' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./components/CreateBattleModal.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/CreateBattleModal.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  522037ms] [ERROR] ./components/CreateBattleModal.tsx:23:1
+Module not found: Can't resolve '@/components/ui/scroll-area'
+  21 | import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+  22 | import { Card, CardContent } from '@/components/ui/card';
+> 23 | import { ScrollArea } from '@/components/ui/scroll-area';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 | import { Users, Bot, Swords, Sparkles, RefreshCw, Zap, Crown } from 'lucide-react';
+  25 |
+  26 | interface ParadoxTopic {
+
+Import map: aliased to relative './components/ui/scroll-area' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./components/CreateBattleModal.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/CreateBattleModal.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  525838ms] [ERROR] ./components/CreateBattleModal.tsx:23:1
+Module not found: Can't resolve '@/components/ui/scroll-area'
+  21 | import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+  22 | import { Card, CardContent } from '@/components/ui/card';
+> 23 | import { ScrollArea } from '@/components/ui/scroll-area';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 | import { Users, Bot, Swords, Sparkles, RefreshCw, Zap, Crown } from 'lucide-react';
+  25 |
+  26 | interface ParadoxTopic {
+
+Import map: aliased to relative './components/ui/scroll-area' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./components/CreateBattleModal.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/CreateBattleModal.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  527039ms] [ERROR] ./components/CreateBattleModal.tsx:23:1
+Module not found: Can't resolve '@/components/ui/scroll-area'
+  21 | import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+  22 | import { Card, CardContent } from '@/components/ui/card';
+> 23 | import { ScrollArea } from '@/components/ui/scroll-area';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 | import { Users, Bot, Swords, Sparkles, RefreshCw, Zap, Crown } from 'lucide-react';
+  25 |
+  26 | interface ParadoxTopic {
+
+Import map: aliased to relative './components/ui/scroll-area' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./components/CreateBattleModal.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/CreateBattleModal.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  532061ms] [ERROR] ./components/CreateBattleModal.tsx:23:1
+Module not found: Can't resolve '@/components/ui/scroll-area'
+  21 | import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+  22 | import { Card, CardContent } from '@/components/ui/card';
+> 23 | import { ScrollArea } from '@/components/ui/scroll-area';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 | import { Users, Bot, Swords, Sparkles, RefreshCw, Zap, Crown } from 'lucide-react';
+  25 |
+  26 | interface ParadoxTopic {
+
+Import map: aliased to relative './components/ui/scroll-area' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./components/CreateBattleModal.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/CreateBattleModal.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  537058ms] [ERROR] ./components/CreateBattleModal.tsx:23:1
+Module not found: Can't resolve '@/components/ui/scroll-area'
+  21 | import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+  22 | import { Card, CardContent } from '@/components/ui/card';
+> 23 | import { ScrollArea } from '@/components/ui/scroll-area';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 | import { Users, Bot, Swords, Sparkles, RefreshCw, Zap, Crown } from 'lucide-react';
+  25 |
+  26 | interface ParadoxTopic {
+
+Import map: aliased to relative './components/ui/scroll-area' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./components/CreateBattleModal.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/CreateBattleModal.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  542047ms] [ERROR] ./components/CreateBattleModal.tsx:23:1
+Module not found: Can't resolve '@/components/ui/scroll-area'
+  21 | import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+  22 | import { Card, CardContent } from '@/components/ui/card';
+> 23 | import { ScrollArea } from '@/components/ui/scroll-area';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 | import { Users, Bot, Swords, Sparkles, RefreshCw, Zap, Crown } from 'lucide-react';
+  25 |
+  26 | interface ParadoxTopic {
+
+Import map: aliased to relative './components/ui/scroll-area' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./components/CreateBattleModal.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/CreateBattleModal.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  547036ms] [ERROR] ./components/CreateBattleModal.tsx:23:1
+Module not found: Can't resolve '@/components/ui/scroll-area'
+  21 | import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+  22 | import { Card, CardContent } from '@/components/ui/card';
+> 23 | import { ScrollArea } from '@/components/ui/scroll-area';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 | import { Users, Bot, Swords, Sparkles, RefreshCw, Zap, Crown } from 'lucide-react';
+  25 |
+  26 | interface ParadoxTopic {
+
+Import map: aliased to relative './components/ui/scroll-area' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./components/CreateBattleModal.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/CreateBattleModal.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  552036ms] [ERROR] ./components/CreateBattleModal.tsx:23:1
+Module not found: Can't resolve '@/components/ui/scroll-area'
+  21 | import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+  22 | import { Card, CardContent } from '@/components/ui/card';
+> 23 | import { ScrollArea } from '@/components/ui/scroll-area';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 | import { Users, Bot, Swords, Sparkles, RefreshCw, Zap, Crown } from 'lucide-react';
+  25 |
+  26 | interface ParadoxTopic {
+
+Import map: aliased to relative './components/ui/scroll-area' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./components/CreateBattleModal.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/CreateBattleModal.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  557039ms] [ERROR] ./components/CreateBattleModal.tsx:23:1
+Module not found: Can't resolve '@/components/ui/scroll-area'
+  21 | import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+  22 | import { Card, CardContent } from '@/components/ui/card';
+> 23 | import { ScrollArea } from '@/components/ui/scroll-area';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 | import { Users, Bot, Swords, Sparkles, RefreshCw, Zap, Crown } from 'lucide-react';
+  25 |
+  26 | interface ParadoxTopic {
+
+Import map: aliased to relative './components/ui/scroll-area' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./components/CreateBattleModal.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/CreateBattleModal.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  558401ms] [ERROR] ./components/CreateBattleModal.tsx:23:1
+Module not found: Can't resolve '@/components/ui/scroll-area'
+  21 | import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+  22 | import { Card, CardContent } from '@/components/ui/card';
+> 23 | import { ScrollArea } from '@/components/ui/scroll-area';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 | import { Users, Bot, Swords, Sparkles, RefreshCw, Zap, Crown } from 'lucide-react';
+  25 |
+  26 | interface ParadoxTopic {
+
+Import map: aliased to relative './components/ui/scroll-area' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./components/CreateBattleModal.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/CreateBattleModal.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  561430ms] [ERROR] ./components/CreateBattleModal.tsx:23:1
+Module not found: Can't resolve '@/components/ui/scroll-area'
+  21 | import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+  22 | import { Card, CardContent } from '@/components/ui/card';
+> 23 | import { ScrollArea } from '@/components/ui/scroll-area';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 | import { Users, Bot, Swords, Sparkles, RefreshCw, Zap, Crown } from 'lucide-react';
+  25 |
+  26 | interface ParadoxTopic {
+
+Import map: aliased to relative './components/ui/scroll-area' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./components/CreateBattleModal.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/CreateBattleModal.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  562040ms] [ERROR] ./components/CreateBattleModal.tsx:23:1
+Module not found: Can't resolve '@/components/ui/scroll-area'
+  21 | import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+  22 | import { Card, CardContent } from '@/components/ui/card';
+> 23 | import { ScrollArea } from '@/components/ui/scroll-area';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 | import { Users, Bot, Swords, Sparkles, RefreshCw, Zap, Crown } from 'lucide-react';
+  25 |
+  26 | interface ParadoxTopic {
+
+Import map: aliased to relative './components/ui/scroll-area' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./components/CreateBattleModal.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/CreateBattleModal.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  563966ms] [ERROR] ./components/CreateBattleModal.tsx:23:1
+Module not found: Can't resolve '@/components/ui/scroll-area'
+  21 | import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+  22 | import { Card, CardContent } from '@/components/ui/card';
+> 23 | import { ScrollArea } from '@/components/ui/scroll-area';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 | import { Users, Bot, Swords, Sparkles, RefreshCw, Zap, Crown } from 'lucide-react';
+  25 |
+  26 | interface ParadoxTopic {
+
+Import map: aliased to relative './components/ui/scroll-area' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./components/CreateBattleModal.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/CreateBattleModal.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  567035ms] [ERROR] ./components/CreateBattleModal.tsx:23:1
+Module not found: Can't resolve '@/components/ui/scroll-area'
+  21 | import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+  22 | import { Card, CardContent } from '@/components/ui/card';
+> 23 | import { ScrollArea } from '@/components/ui/scroll-area';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 | import { Users, Bot, Swords, Sparkles, RefreshCw, Zap, Crown } from 'lucide-react';
+  25 |
+  26 | interface ParadoxTopic {
+
+Import map: aliased to relative './components/ui/scroll-area' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./components/CreateBattleModal.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/CreateBattleModal.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  570374ms] [ERROR] ./components/CreateBattleModal.tsx:23:1
+Module not found: Can't resolve '@/components/ui/scroll-area'
+  21 | import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+  22 | import { Card, CardContent } from '@/components/ui/card';
+> 23 | import { ScrollArea } from '@/components/ui/scroll-area';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 | import { Users, Bot, Swords, Sparkles, RefreshCw, Zap, Crown } from 'lucide-react';
+  25 |
+  26 | interface ParadoxTopic {
+
+Import map: aliased to relative './components/ui/scroll-area' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./components/CreateBattleModal.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/CreateBattleModal.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  572035ms] [ERROR] ./components/CreateBattleModal.tsx:23:1
+Module not found: Can't resolve '@/components/ui/scroll-area'
+  21 | import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+  22 | import { Card, CardContent } from '@/components/ui/card';
+> 23 | import { ScrollArea } from '@/components/ui/scroll-area';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 | import { Users, Bot, Swords, Sparkles, RefreshCw, Zap, Crown } from 'lucide-react';
+  25 |
+  26 | interface ParadoxTopic {
+
+Import map: aliased to relative './components/ui/scroll-area' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./components/CreateBattleModal.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/CreateBattleModal.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  577048ms] [ERROR] ./components/CreateBattleModal.tsx:23:1
+Module not found: Can't resolve '@/components/ui/scroll-area'
+  21 | import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+  22 | import { Card, CardContent } from '@/components/ui/card';
+> 23 | import { ScrollArea } from '@/components/ui/scroll-area';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 | import { Users, Bot, Swords, Sparkles, RefreshCw, Zap, Crown } from 'lucide-react';
+  25 |
+  26 | interface ParadoxTopic {
+
+Import map: aliased to relative './components/ui/scroll-area' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./components/CreateBattleModal.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/CreateBattleModal.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  582037ms] [ERROR] ./components/CreateBattleModal.tsx:23:1
+Module not found: Can't resolve '@/components/ui/scroll-area'
+  21 | import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+  22 | import { Card, CardContent } from '@/components/ui/card';
+> 23 | import { ScrollArea } from '@/components/ui/scroll-area';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 | import { Users, Bot, Swords, Sparkles, RefreshCw, Zap, Crown } from 'lucide-react';
+  25 |
+  26 | interface ParadoxTopic {
+
+Import map: aliased to relative './components/ui/scroll-area' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./components/CreateBattleModal.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/CreateBattleModal.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  583550ms] [ERROR] ./components/CreateBattleModal.tsx:23:1
+Module not found: Can't resolve '@/components/ui/scroll-area'
+  21 | import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+  22 | import { Card, CardContent } from '@/components/ui/card';
+> 23 | import { ScrollArea } from '@/components/ui/scroll-area';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 | import { Users, Bot, Swords, Sparkles, RefreshCw, Zap, Crown } from 'lucide-react';
+  25 |
+  26 | interface ParadoxTopic {
+
+Import map: aliased to relative './components/ui/scroll-area' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./components/CreateBattleModal.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/CreateBattleModal.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  587049ms] [ERROR] ./components/CreateBattleModal.tsx:23:1
+Module not found: Can't resolve '@/components/ui/scroll-area'
+  21 | import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+  22 | import { Card, CardContent } from '@/components/ui/card';
+> 23 | import { ScrollArea } from '@/components/ui/scroll-area';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 | import { Users, Bot, Swords, Sparkles, RefreshCw, Zap, Crown } from 'lucide-react';
+  25 |
+  26 | interface ParadoxTopic {
+
+Import map: aliased to relative './components/ui/scroll-area' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./components/CreateBattleModal.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/CreateBattleModal.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  592052ms] [ERROR] ./components/CreateBattleModal.tsx:23:1
+Module not found: Can't resolve '@/components/ui/scroll-area'
+  21 | import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+  22 | import { Card, CardContent } from '@/components/ui/card';
+> 23 | import { ScrollArea } from '@/components/ui/scroll-area';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 | import { Users, Bot, Swords, Sparkles, RefreshCw, Zap, Crown } from 'lucide-react';
+  25 |
+  26 | interface ParadoxTopic {
+
+Import map: aliased to relative './components/ui/scroll-area' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./components/CreateBattleModal.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/CreateBattleModal.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  597050ms] [ERROR] ./components/CreateBattleModal.tsx:23:1
+Module not found: Can't resolve '@/components/ui/scroll-area'
+  21 | import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+  22 | import { Card, CardContent } from '@/components/ui/card';
+> 23 | import { ScrollArea } from '@/components/ui/scroll-area';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 | import { Users, Bot, Swords, Sparkles, RefreshCw, Zap, Crown } from 'lucide-react';
+  25 |
+  26 | interface ParadoxTopic {
+
+Import map: aliased to relative './components/ui/scroll-area' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./components/CreateBattleModal.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/CreateBattleModal.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  602042ms] [ERROR] ./components/CreateBattleModal.tsx:23:1
+Module not found: Can't resolve '@/components/ui/scroll-area'
+  21 | import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+  22 | import { Card, CardContent } from '@/components/ui/card';
+> 23 | import { ScrollArea } from '@/components/ui/scroll-area';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 | import { Users, Bot, Swords, Sparkles, RefreshCw, Zap, Crown } from 'lucide-react';
+  25 |
+  26 | interface ParadoxTopic {
+
+Import map: aliased to relative './components/ui/scroll-area' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./components/CreateBattleModal.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/CreateBattleModal.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  607040ms] [ERROR] ./components/CreateBattleModal.tsx:23:1
+Module not found: Can't resolve '@/components/ui/scroll-area'
+  21 | import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+  22 | import { Card, CardContent } from '@/components/ui/card';
+> 23 | import { ScrollArea } from '@/components/ui/scroll-area';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 | import { Users, Bot, Swords, Sparkles, RefreshCw, Zap, Crown } from 'lucide-react';
+  25 |
+  26 | interface ParadoxTopic {
+
+Import map: aliased to relative './components/ui/scroll-area' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./components/CreateBattleModal.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/CreateBattleModal.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  610088ms] [ERROR] ./components/CreateBattleModal.tsx:23:1
+Module not found: Can't resolve '@/components/ui/scroll-area'
+  21 | import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+  22 | import { Card, CardContent } from '@/components/ui/card';
+> 23 | import { ScrollArea } from '@/components/ui/scroll-area';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 | import { Users, Bot, Swords, Sparkles, RefreshCw, Zap, Crown } from 'lucide-react';
+  25 |
+  26 | interface ParadoxTopic {
+
+Import map: aliased to relative './components/ui/scroll-area' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./components/CreateBattleModal.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/CreateBattleModal.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  612037ms] [ERROR] ./components/CreateBattleModal.tsx:23:1
+Module not found: Can't resolve '@/components/ui/scroll-area'
+  21 | import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+  22 | import { Card, CardContent } from '@/components/ui/card';
+> 23 | import { ScrollArea } from '@/components/ui/scroll-area';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 | import { Users, Bot, Swords, Sparkles, RefreshCw, Zap, Crown } from 'lucide-react';
+  25 |
+  26 | interface ParadoxTopic {
+
+Import map: aliased to relative './components/ui/scroll-area' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./components/CreateBattleModal.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/CreateBattleModal.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  617046ms] [ERROR] ./components/CreateBattleModal.tsx:23:1
+Module not found: Can't resolve '@/components/ui/scroll-area'
+  21 | import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+  22 | import { Card, CardContent } from '@/components/ui/card';
+> 23 | import { ScrollArea } from '@/components/ui/scroll-area';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 | import { Users, Bot, Swords, Sparkles, RefreshCw, Zap, Crown } from 'lucide-react';
+  25 |
+  26 | interface ParadoxTopic {
+
+Import map: aliased to relative './components/ui/scroll-area' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./components/CreateBattleModal.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/CreateBattleModal.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  621443ms] [ERROR] ./components/CreateBattleModal.tsx:23:1
+Module not found: Can't resolve '@/components/ui/scroll-area'
+  21 | import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+  22 | import { Card, CardContent } from '@/components/ui/card';
+> 23 | import { ScrollArea } from '@/components/ui/scroll-area';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 | import { Users, Bot, Swords, Sparkles, RefreshCw, Zap, Crown } from 'lucide-react';
+  25 |
+  26 | interface ParadoxTopic {
+
+Import map: aliased to relative './components/ui/scroll-area' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./components/CreateBattleModal.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/CreateBattleModal.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  622041ms] [ERROR] ./components/CreateBattleModal.tsx:23:1
+Module not found: Can't resolve '@/components/ui/scroll-area'
+  21 | import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+  22 | import { Card, CardContent } from '@/components/ui/card';
+> 23 | import { ScrollArea } from '@/components/ui/scroll-area';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 | import { Users, Bot, Swords, Sparkles, RefreshCw, Zap, Crown } from 'lucide-react';
+  25 |
+  26 | interface ParadoxTopic {
+
+Import map: aliased to relative './components/ui/scroll-area' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./components/CreateBattleModal.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/CreateBattleModal.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  627041ms] [ERROR] ./components/CreateBattleModal.tsx:23:1
+Module not found: Can't resolve '@/components/ui/scroll-area'
+  21 | import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+  22 | import { Card, CardContent } from '@/components/ui/card';
+> 23 | import { ScrollArea } from '@/components/ui/scroll-area';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 | import { Users, Bot, Swords, Sparkles, RefreshCw, Zap, Crown } from 'lucide-react';
+  25 |
+  26 | interface ParadoxTopic {
+
+Import map: aliased to relative './components/ui/scroll-area' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./components/CreateBattleModal.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/CreateBattleModal.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  632053ms] [ERROR] ./components/CreateBattleModal.tsx:23:1
+Module not found: Can't resolve '@/components/ui/scroll-area'
+  21 | import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+  22 | import { Card, CardContent } from '@/components/ui/card';
+> 23 | import { ScrollArea } from '@/components/ui/scroll-area';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 | import { Users, Bot, Swords, Sparkles, RefreshCw, Zap, Crown } from 'lucide-react';
+  25 |
+  26 | interface ParadoxTopic {
+
+Import map: aliased to relative './components/ui/scroll-area' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./components/CreateBattleModal.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/CreateBattleModal.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  637039ms] [ERROR] ./components/CreateBattleModal.tsx:23:1
+Module not found: Can't resolve '@/components/ui/scroll-area'
+  21 | import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+  22 | import { Card, CardContent } from '@/components/ui/card';
+> 23 | import { ScrollArea } from '@/components/ui/scroll-area';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 | import { Users, Bot, Swords, Sparkles, RefreshCw, Zap, Crown } from 'lucide-react';
+  25 |
+  26 | interface ParadoxTopic {
+
+Import map: aliased to relative './components/ui/scroll-area' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./components/CreateBattleModal.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/CreateBattleModal.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  642036ms] [ERROR] ./components/CreateBattleModal.tsx:23:1
+Module not found: Can't resolve '@/components/ui/scroll-area'
+  21 | import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+  22 | import { Card, CardContent } from '@/components/ui/card';
+> 23 | import { ScrollArea } from '@/components/ui/scroll-area';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 | import { Users, Bot, Swords, Sparkles, RefreshCw, Zap, Crown } from 'lucide-react';
+  25 |
+  26 | interface ParadoxTopic {
+
+Import map: aliased to relative './components/ui/scroll-area' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./components/CreateBattleModal.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/CreateBattleModal.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  645999ms] [ERROR] ./components/CreateBattleModal.tsx:23:1
+Module not found: Can't resolve '@/components/ui/scroll-area'
+  21 | import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+  22 | import { Card, CardContent } from '@/components/ui/card';
+> 23 | import { ScrollArea } from '@/components/ui/scroll-area';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 | import { Users, Bot, Swords, Sparkles, RefreshCw, Zap, Crown } from 'lucide-react';
+  25 |
+  26 | interface ParadoxTopic {
+
+Import map: aliased to relative './components/ui/scroll-area' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./components/CreateBattleModal.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/CreateBattleModal.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  647036ms] [ERROR] ./components/CreateBattleModal.tsx:23:1
+Module not found: Can't resolve '@/components/ui/scroll-area'
+  21 | import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+  22 | import { Card, CardContent } from '@/components/ui/card';
+> 23 | import { ScrollArea } from '@/components/ui/scroll-area';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 | import { Users, Bot, Swords, Sparkles, RefreshCw, Zap, Crown } from 'lucide-react';
+  25 |
+  26 | interface ParadoxTopic {
+
+Import map: aliased to relative './components/ui/scroll-area' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./components/CreateBattleModal.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/CreateBattleModal.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  652048ms] [ERROR] ./components/CreateBattleModal.tsx:23:1
+Module not found: Can't resolve '@/components/ui/scroll-area'
+  21 | import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+  22 | import { Card, CardContent } from '@/components/ui/card';
+> 23 | import { ScrollArea } from '@/components/ui/scroll-area';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 | import { Users, Bot, Swords, Sparkles, RefreshCw, Zap, Crown } from 'lucide-react';
+  25 |
+  26 | interface ParadoxTopic {
+
+Import map: aliased to relative './components/ui/scroll-area' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./components/CreateBattleModal.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/CreateBattleModal.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  657042ms] [ERROR] ./components/CreateBattleModal.tsx:23:1
+Module not found: Can't resolve '@/components/ui/scroll-area'
+  21 | import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+  22 | import { Card, CardContent } from '@/components/ui/card';
+> 23 | import { ScrollArea } from '@/components/ui/scroll-area';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 | import { Users, Bot, Swords, Sparkles, RefreshCw, Zap, Crown } from 'lucide-react';
+  25 |
+  26 | interface ParadoxTopic {
+
+Import map: aliased to relative './components/ui/scroll-area' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./components/CreateBattleModal.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/CreateBattleModal.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  662042ms] [ERROR] ./components/CreateBattleModal.tsx:23:1
+Module not found: Can't resolve '@/components/ui/scroll-area'
+  21 | import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+  22 | import { Card, CardContent } from '@/components/ui/card';
+> 23 | import { ScrollArea } from '@/components/ui/scroll-area';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 | import { Users, Bot, Swords, Sparkles, RefreshCw, Zap, Crown } from 'lucide-react';
+  25 |
+  26 | interface ParadoxTopic {
+
+Import map: aliased to relative './components/ui/scroll-area' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./components/CreateBattleModal.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/CreateBattleModal.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  668927ms] [ERROR] ./components/CreateBattleModal.tsx:363:16
+Parsing ecmascript source code failed
+  361 |                   ))}
+  362 |                 </div>
+> 363 |               </ScrollArea>
+      |                ^^^^^^^^^^^^
+  364 |             ) : (
+  365 |               <div className="text-center py-8 text-gray-500">
+  366 |                 <Sparkles className="w-8 h-8 mx-auto mb-2 opacity-50" />
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./components/CreateBattleModal.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/CreateBattleModal.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  672162ms] [ERROR] ./components/CreateBattleModal.tsx:363:16
+Parsing ecmascript source code failed
+  361 |                   ))}
+  362 |                 </div>
+> 363 |               </ScrollArea>
+      |                ^^^^^^^^^^^^
+  364 |             ) : (
+  365 |               <div className="text-center py-8 text-gray-500">
+  366 |                 <Sparkles className="w-8 h-8 mx-auto mb-2 opacity-50" />
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./components/CreateBattleModal.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/CreateBattleModal.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  674299ms] [ERROR] ./components/CreateBattleModal.tsx:363:16
+Parsing ecmascript source code failed
+  361 |                   ))}
+  362 |                 </div>
+> 363 |               </ScrollArea>
+      |                ^^^^^^^^^^^^
+  364 |             ) : (
+  365 |               <div className="text-center py-8 text-gray-500">
+  366 |                 <Sparkles className="w-8 h-8 mx-auto mb-2 opacity-50" />
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./components/CreateBattleModal.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/CreateBattleModal.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  677161ms] [ERROR] ./components/CreateBattleModal.tsx:363:16
+Parsing ecmascript source code failed
+  361 |                   ))}
+  362 |                 </div>
+> 363 |               </ScrollArea>
+      |                ^^^^^^^^^^^^
+  364 |             ) : (
+  365 |               <div className="text-center py-8 text-gray-500">
+  366 |                 <Sparkles className="w-8 h-8 mx-auto mb-2 opacity-50" />
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./components/CreateBattleModal.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/CreateBattleModal.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  679306ms] [ERROR] ./components/CreateBattleModal.tsx:363:16
+Parsing ecmascript source code failed
+  361 |                   ))}
+  362 |                 </div>
+> 363 |               </ScrollArea>
+      |                ^^^^^^^^^^^^
+  364 |             ) : (
+  365 |               <div className="text-center py-8 text-gray-500">
+  366 |                 <Sparkles className="w-8 h-8 mx-auto mb-2 opacity-50" />
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./components/CreateBattleModal.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/CreateBattleModal.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  682151ms] [ERROR] ./components/CreateBattleModal.tsx:363:16
+Parsing ecmascript source code failed
+  361 |                   ))}
+  362 |                 </div>
+> 363 |               </ScrollArea>
+      |                ^^^^^^^^^^^^
+  364 |             ) : (
+  365 |               <div className="text-center py-8 text-gray-500">
+  366 |                 <Sparkles className="w-8 h-8 mx-auto mb-2 opacity-50" />
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./components/CreateBattleModal.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/CreateBattleModal.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  684308ms] [ERROR] ./components/CreateBattleModal.tsx:363:16
+Parsing ecmascript source code failed
+  361 |                   ))}
+  362 |                 </div>
+> 363 |               </ScrollArea>
+      |                ^^^^^^^^^^^^
+  364 |             ) : (
+  365 |               <div className="text-center py-8 text-gray-500">
+  366 |                 <Sparkles className="w-8 h-8 mx-auto mb-2 opacity-50" />
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./components/CreateBattleModal.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/CreateBattleModal.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  687160ms] [ERROR] ./components/CreateBattleModal.tsx:363:16
+Parsing ecmascript source code failed
+  361 |                   ))}
+  362 |                 </div>
+> 363 |               </ScrollArea>
+      |                ^^^^^^^^^^^^
+  364 |             ) : (
+  365 |               <div className="text-center py-8 text-gray-500">
+  366 |                 <Sparkles className="w-8 h-8 mx-auto mb-2 opacity-50" />
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./components/CreateBattleModal.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Client Component Browser]
+    ./app/unified-arena/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/CreateBattleModal.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Client Component SSR]
+    ./app/unified-arena/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  964937ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr?id=ZwAKRuKvRsy0ETQt4sCL7' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_17643121._.js:10878
+[  965939ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr?id=ZwAKRuKvRsy0ETQt4sCL7' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_17643121._.js:10878
